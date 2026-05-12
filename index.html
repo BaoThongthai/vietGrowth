@@ -4,6 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Viet Growth EU - Full-service Media for Vietnamese Businesses in Europe</title>
+  <meta name="description" content="Viet Growth EU cung cấp dịch vụ media trọn gói: Ads, Content, Video, Website cho người Việt tại Châu Âu." />
+  <meta name="theme-color" content="#07142b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Viet Growth EU" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- Preview khi chia sẻ Facebook / Messenger / Zalo -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Viet Growth EU - Media trọn gói cho người Việt tại Châu Âu" />
+  <meta property="og:description" content="Ads • Content • Video • Website. Giúp người Việt tại EU bán hàng online hiệu quả hơn." />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/07142b/f5c542&text=Viet+Growth+EU" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Icon khi add ra màn hình chính iOS / Android -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%2307142b'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='118' font-weight='900' fill='%23f5c542'%3EVG%3C/text%3E%3Ctext x='50%25' y='66%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='42' font-weight='800' fill='white'%3EEU%3C/text%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%2307142b'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='118' font-weight='900' fill='%23f5c542'%3EVG%3C/text%3E%3Ctext x='50%25' y='66%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='42' font-weight='800' fill='white'%3EEU%3C/text%3E%3C/svg%3E" />
+  <link rel="manifest" href="data:application/manifest+json,{%22name%22:%22Viet%20Growth%20EU%22,%22short_name%22:%22VG%20EU%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%2307142b%22,%22theme_color%22:%22%2307142b%22}" />
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:Arial,Helvetica,sans-serif;background:#07142b;color:#fff;line-height:1.6}
@@ -35,6 +54,12 @@
     .cta-band{background:linear-gradient(135deg,#f5c542,#ffe08a);color:#07142b;text-align:center}.cta-band h2{font-size:40px;margin-bottom:12px}.cta-band p{max-width:720px;margin:0 auto 22px;color:#26324d}.cta-band .btn{background:#07142b;color:#fff}
     .form-sec{background:linear-gradient(135deg,#07142b,#102d6b)}.form-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;background:#fff;color:#07142b;border-radius:30px;padding:32px}.form-box h2{font-size:34px;margin-bottom:10px}.form-box p{color:#4b5875;margin-bottom:18px}.contact-line{margin:10px 0;font-weight:700}.form{display:grid;gap:12px}.form input,.form select,.form textarea{width:100%;padding:15px;border:1px solid #d5dbea;border-radius:14px;font-size:15px}.form textarea{min-height:110px}.form button{border:0;background:#f5c542;color:#07142b;padding:16px;border-radius:14px;font-weight:900;font-size:16px;cursor:pointer}
     .footer{text-align:center;padding:26px;color:#b9c6e8;background:#030915}
+    .share-fixed{position:fixed;right:18px;bottom:22px;z-index:999;display:flex;flex-direction:column;gap:10px}
+    .share-btn{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;color:#fff;box-shadow:0 12px 35px rgba(0,0,0,.28);transition:.25s transform,.25s box-shadow;border:1px solid rgba(255,255,255,.18)}
+    .share-btn:hover{transform:translateY(-4px) scale(1.06);box-shadow:0 18px 45px rgba(0,0,0,.38)}
+    .share-zalo{background:#0068ff}.share-fb{background:#1877f2}.share-ms{background:linear-gradient(135deg,#00b2ff,#8a3ffc)}.share-wa{background:#25d366}.share-main{background:#f5c542;color:#07142b}
+    .install-tip{position:fixed;left:18px;bottom:22px;z-index:998;background:#fff;color:#07142b;border-radius:18px;padding:14px 16px;box-shadow:0 16px 45px rgba(0,0,0,.25);max-width:260px;font-size:14px;display:none}
+    .install-tip strong{display:block;margin-bottom:4px}.install-tip button{margin-top:8px;border:0;background:#07142b;color:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-weight:800}
     .floating-img{position:absolute;border-radius:24px;overflow:hidden;box-shadow:0 25px 60px rgba(0,0,0,.4);animation:float 5s ease-in-out infinite}
     .float-1{top:120px;right:-40px;width:180px;transform:rotate(6deg)}
     .float-2{bottom:40px;right:120px;width:140px;animation-delay:1.5s}
@@ -49,7 +74,177 @@
     .fade-up.show{opacity:1;transform:translateY(0)}
     .glow{position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(29,124,255,.18);filter:blur(60px);top:-120px;right:-120px;pointer-events:none}
     @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-18px)}100%{transform:translateY(0)}}
-    @media(max-width:900px){h1{font-size:42px}.hero-grid,.form-box,.who-grid{grid-template-columns:1fr}.cards,.pain-grid,.steps,.gallery,.why-grid,.package-grid,.faq-grid{grid-template-columns:1fr}.nav{margin-bottom:36px;align-items:flex-start}.hero{min-height:auto}.mock{height:240px}.nav-actions{gap:8px}.nav-cta{padding:10px 14px}}
+    @media(max-width:900px){
+      body{overflow-x:hidden}
+      .wrap{padding:0 16px}
+      .hero{padding:18px 0 42px;min-height:auto}
+      .nav{margin-bottom:34px;align-items:flex-start;flex-direction:column;gap:14px}
+      .logo{font-size:24px}
+      .nav-actions{width:100%;justify-content:space-between}
+      .nav-cta{padding:10px 14px;font-size:14px}
+      .lang-toggle button{padding:7px 11px}
+      .hero-grid,.form-box,.who-grid{grid-template-columns:1fr;gap:26px}
+      h1{font-size:39px;line-height:1.08;margin-bottom:18px}
+      .lead{font-size:17px;margin-bottom:24px}
+      .badge{font-size:13px;line-height:1.4}
+      .btns{gap:10px}
+      .btn{width:100%;text-align:center;padding:14px 16px}
+      .hero-card{padding:16px;border-radius:22px}
+      .mock{height:240px;padding:20px}.mock h3{font-size:23px}
+      section{padding:48px 0}
+      .title{margin-bottom:26px}.title h2{font-size:30px;line-height:1.16}.title p{font-size:15px}
+      .cards,.pain-grid,.steps,.gallery,.why-grid,.package-grid,.faq-grid{grid-template-columns:1fr;gap:14px}
+      .card,.pain-item,.step,.why-card,.faq-item,.package{padding:20px;border-radius:20px}
+      .gallery-item img{height:210px}
+      .who-img img{height:280px}
+      .package.featured{transform:none}
+      .cta-band h2{font-size:31px;line-height:1.16}
+      .cta-band p{font-size:15px}
+      .form-box{padding:22px;border-radius:22px}
+      .form-box h2{font-size:28px}
+      .form input,.form select,.form textarea{font-size:16px;padding:14px}
+      .form button{padding:15px;font-size:15px}
+      .floating-img{display:none}
+      .share-fixed{right:12px;bottom:14px;gap:8px}.share-btn{width:45px;height:45px;font-size:14px}
+      .install-tip{left:10px;right:68px;bottom:14px;max-width:none;font-size:13px;padding:12px 13px}
+    }
+
+    @media(max-width:480px){
+      .wrap{padding:0 14px}
+      .hero{padding-top:16px}
+      .logo{font-size:22px}
+      .nav-actions{align-items:center}
+      h1{font-size:34px}
+      .lead{font-size:16px}
+      .badge{font-size:12px;padding:7px 11px}
+      .mock{height:215px}
+      .mock h3{font-size:20px}
+      .mock .chart{height:82px;bottom:22px;left:18px;right:18px}
+      .title h2{font-size:27px}
+      .gallery-item img{height:190px}
+      .who-img img{height:230px}
+      .contact-line{font-size:14px;word-break:break-word}
+      .footer{font-size:13px;padding:22px 12px}
+    }
+
+    @media(max-width:360px){
+      h1{font-size:30px}
+      .title h2{font-size:24px}
+      .nav-actions{flex-direction:column;align-items:flex-start}
+      .nav-cta{width:100%;text-align:center}
+    } .wrap{padding:0 16px}
+      .hero{padding:18px 0 42px;min-height:auto}
+      .nav{margin-bottom:34px;align-items:flex-start;flex-direction:column;gap:14px}
+      .logo{font-size:24px}
+      .nav-actions{width:100%;justify-content:space-between}
+      .nav-cta{padding:10px 14px;font-size:14px}
+      .lang-toggle button{padding:7px 11px}
+      .hero-grid,.form-box,.who-grid{grid-template-columns:1fr;gap:26px}
+      h1{font-size:39px;line-height:1.08;margin-bottom:18px}
+      .lead{font-size:17px;margin-bottom:24px}
+      .badge{font-size:13px;line-height:1.4}
+      .btns{gap:10px}
+      .btn{width:100%;text-align:center;padding:14px 16px}
+      .hero-card{padding:16px;border-radius:22px}
+      .mock{height:240px;padding:20px}.mock h3{font-size:23px}
+      section{padding:48px 0}
+      .title{margin-bottom:26px}.title h2{font-size:30px;line-height:1.16}.title p{font-size:15px}
+      .cards,.pain-grid,.steps,.gallery,.why-grid,.package-grid,.faq-grid{grid-template-columns:1fr;gap:14px}
+      .card,.pain-item,.step,.why-card,.faq-item,.package{padding:20px;border-radius:20px}
+      .gallery-item img{height:210px}
+      .who-img img{height:280px}
+      .package.featured{transform:none}
+      .cta-band h2{font-size:31px;line-height:1.16}
+      .cta-band p{font-size:15px}
+      .form-box{padding:22px;border-radius:22px}
+      .form-box h2{font-size:28px}
+      .form input,.form select,.form textarea{font-size:16px;padding:14px}
+      .form button{padding:15px;font-size:15px}
+      .floating-img{display:none}
+      .share-fixed{right:12px;bottom:14px;gap:8px}.share-btn{width:45px;height:45px;font-size:14px}
+      .install-tip{left:10px;right:68px;bottom:14px;max-width:none;font-size:13px;padding:12px 13px}
+    }
+
+    @media(max-width:480px){
+      .wrap{padding:0 14px}
+      .hero{padding-top:16px}
+      .logo{font-size:22px}
+      .nav-actions{align-items:center}
+      h1{font-size:34px}
+      .lead{font-size:16px}
+      .badge{font-size:12px;padding:7px 11px}
+      .mock{height:215px}
+      .mock h3{font-size:20px}
+      .mock .chart{height:82px;bottom:22px;left:18px;right:18px}
+      .title h2{font-size:27px}
+      .gallery-item img{height:190px}
+      .who-img img{height:230px}
+      .contact-line{font-size:14px;word-break:break-word}
+      .footer{font-size:13px;padding:22px 12px}
+    }
+
+    @media(max-width:360px){
+      h1{font-size:30px}
+      .title h2{font-size:24px}
+      .nav-actions{flex-direction:column;align-items:flex-start}
+      .nav-cta{width:100%;text-align:center}
+    } .wrap{padding:0 16px}
+      .hero{padding:18px 0 42px;min-height:auto}
+      .nav{margin-bottom:34px;align-items:flex-start;flex-direction:column;gap:14px}
+      .logo{font-size:24px}
+      .nav-actions{width:100%;justify-content:space-between}
+      .nav-cta{padding:10px 14px;font-size:14px}
+      .lang-toggle button{padding:7px 11px}
+      .hero-grid,.form-box,.who-grid{grid-template-columns:1fr;gap:26px}
+      h1{font-size:39px;line-height:1.08;margin-bottom:18px}
+      .lead{font-size:17px;margin-bottom:24px}
+      .badge{font-size:13px;line-height:1.4}
+      .btns{gap:10px}
+      .btn{width:100%;text-align:center;padding:14px 16px}
+      .hero-card{padding:16px;border-radius:22px}
+      .mock{height:240px;padding:20px}.mock h3{font-size:23px}
+      section{padding:48px 0}
+      .title{margin-bottom:26px}.title h2{font-size:30px;line-height:1.16}.title p{font-size:15px}
+      .cards,.pain-grid,.steps,.gallery,.why-grid,.package-grid,.faq-grid{grid-template-columns:1fr;gap:14px}
+      .card,.pain-item,.step,.why-card,.faq-item,.package{padding:20px;border-radius:20px}
+      .gallery-item img{height:210px}
+      .who-img img{height:280px}
+      .package.featured{transform:none}
+      .cta-band h2{font-size:31px;line-height:1.16}
+      .cta-band p{font-size:15px}
+      .form-box{padding:22px;border-radius:22px}
+      .form-box h2{font-size:28px}
+      .form input,.form select,.form textarea{font-size:16px;padding:14px}
+      .form button{padding:15px;font-size:15px}
+      .floating-img{display:none}
+      .share-fixed{right:12px;bottom:14px;gap:8px}.share-btn{width:45px;height:45px;font-size:14px}
+      .install-tip{left:10px;right:68px;bottom:14px;max-width:none;font-size:13px;padding:12px 13px}
+    }
+
+    @media(max-width:480px){
+      .wrap{padding:0 14px}
+      .hero{padding-top:16px}
+      .logo{font-size:22px}
+      .nav-actions{align-items:center}
+      h1{font-size:34px}
+      .lead{font-size:16px}
+      .badge{font-size:12px;padding:7px 11px}
+      .mock{height:215px}
+      .mock h3{font-size:20px}
+      .mock .chart{height:82px;bottom:22px;left:18px;right:18px}
+      .title h2{font-size:27px}
+      .gallery-item img{height:190px}
+      .who-img img{height:230px}
+      .contact-line{font-size:14px;word-break:break-word}
+      .footer{font-size:13px;padding:22px 12px}
+    }
+
+    @media(max-width:360px){
+      h1{font-size:30px}
+      .title h2{font-size:24px}
+      .nav-actions{flex-direction:column;align-items:flex-start}
+      .nav-cta{width:100%;text-align:center}
+    }.share-btn{width:46px;height:46px}.install-tip{left:10px;right:70px;bottom:14px;max-width:none}h1{font-size:42px}.hero-grid,.form-box,.who-grid{grid-template-columns:1fr}.cards,.pain-grid,.steps,.gallery,.why-grid,.package-grid,.faq-grid{grid-template-columns:1fr}.nav{margin-bottom:36px;align-items:flex-start}.hero{min-height:auto}.mock{height:240px}.nav-actions{gap:8px}.nav-cta{padding:10px 14px}}
   </style>
 </head>
 <body>
@@ -264,117 +459,4 @@
     <div class="wrap">
       <div class="form-box">
         <div>
-          <h2 data-vi="Đăng ký tư vấn miễn phí" data-en="Request a free consultation">Đăng ký tư vấn miễn phí</h2>
-          <p data-vi="Điền thông tin bên dưới, Viet Growth EU sẽ liên hệ để tư vấn hướng marketing phù hợp cho sản phẩm/dịch vụ của bạn." data-en="Fill in the form below and Viet Growth EU will contact you to suggest the right marketing direction for your product or service.">Điền thông tin bên dưới, Viet Growth EU sẽ liên hệ để tư vấn hướng marketing phù hợp cho sản phẩm/dịch vụ của bạn.</p>
-          <div class="contact-line">📲 Zalo: 0918 366 507</div>
-          <div class="contact-line">💬 WhatsApp: +84 773 183 737</div>
-          <div class="contact-line">📩 Messenger: <a href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Viet Growth EU</a></div>
-          <div class="contact-line">🔗 Facebook: <a href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Xem page Viet Growth EU</a></div>
-        </div>
-        <form class="form" onsubmit="handleLeadSubmit(event)">
-          <input type="text" data-placeholder-vi="Họ và tên" data-placeholder-en="Full name" placeholder="Họ và tên" required>
-          <input type="tel" data-placeholder-vi="Số điện thoại / Zalo" data-placeholder-en="Phone / WhatsApp / Zalo" placeholder="Số điện thoại / Zalo" required>
-          <input type="text" data-placeholder-vi="Bạn đang kinh doanh sản phẩm/dịch vụ gì?" data-placeholder-en="What product/service do you sell?" placeholder="Bạn đang kinh doanh sản phẩm/dịch vụ gì?" required>
-          <select required>
-            <option value="" data-vi="Bạn cần hỗ trợ dịch vụ nào?" data-en="Which service do you need?">Bạn cần hỗ trợ dịch vụ nào?</option>
-            <option data-vi="Chạy quảng cáo" data-en="Advertising">Chạy quảng cáo</option>
-            <option data-vi="Content + hình ảnh marketing" data-en="Content + marketing visuals">Content + hình ảnh marketing</option>
-            <option data-vi="Video quảng cáo" data-en="Ad video">Video quảng cáo</option>
-            <option data-vi="Website / Landing Page" data-en="Website / Landing Page">Website / Landing Page</option>
-            <option data-vi="Media trọn gói" data-en="Full-service media package">Media trọn gói</option>
-          </select>
-          <textarea data-placeholder-vi="Mô tả ngắn vấn đề bạn đang gặp: chưa ra đơn, ads lỗ, page yếu, cần web..." data-placeholder-en="Briefly describe your problem: no sales, ads losing money, weak page, need a website..." placeholder="Mô tả ngắn vấn đề bạn đang gặp: chưa ra đơn, ads lỗ, page yếu, cần web..."></textarea>
-          <button type="submit" data-vi="Gửi thông tin tư vấn" data-en="Submit consultation request">Gửi thông tin tư vấn</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer" data-vi="© Viet Growth EU — Giúp người Việt tại Châu Âu bán hàng online hiệu quả<br><a href='https://www.facebook.com/profile.php?id=61589139596786' target='_blank'>Facebook Page</a>" data-en="© Viet Growth EU — Helping Vietnamese businesses in Europe grow online sales<br><a href='https://www.facebook.com/profile.php?id=61589139596786' target='_blank'>Facebook Page</a>">
-    © Viet Growth EU — Giúp người Việt tại Châu Âu bán hàng online hiệu quả<br>
-    <a href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Facebook Page</a>
-  </footer>
-
-  <script>
-    let currentLang = 'vi';
-
-    const TELEGRAM_BOT_TOKEN = "8411668472:AAF7mzIiEot6vEQhqeHrZvpB4hLY_e6L6Ms";
-    const TELEGRAM_CHAT_ID = "8613386410";
-    async function handleLeadSubmit(event){
-      event.preventDefault();
-
-      const form = event.target;
-      const fullName = form.querySelector('input[data-placeholder-vi="Họ và tên"]').value.trim();
-      const phone = form.querySelector('input[data-placeholder-vi="Số điện thoại / Zalo"]').value.trim();
-      const business = form.querySelector('input[data-placeholder-vi="Bạn đang kinh doanh sản phẩm/dịch vụ gì?"]').value.trim();
-      const service = form.querySelector('select').value;
-      const note = form.querySelector('textarea').value.trim();
-      const submitButton = form.querySelector('button[type="submit"]');
-
-      const message = `🔥 LEAD MỚI TỪ VIET GROWTH EU
-
-👤 Họ tên: ${fullName}
-📞 Liên hệ: ${phone}
-💼 Sản phẩm/Dịch vụ: ${business}
-🧩 Nhu cầu: ${service}
-📝 Ghi chú: ${note || 'Không có'}
-
-⏰ Thời gian: ${new Date().toLocaleString('vi-VN')}`;
-
-      submitButton.disabled = true;
-      submitButton.textContent = currentLang === 'vi' ? 'Đang gửi...' : 'Sending...';
-
-      try{
-        const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: message
-          })
-        });
-
-        if(!res.ok){
-          throw new Error('Telegram API error');
-        }
-
-        alert(currentLang === 'vi' ? 'Đã gửi thông tin! Viet Growth EU sẽ liên hệ tư vấn sớm.' : 'Submitted successfully! Viet Growth EU will contact you soon.');
-        form.reset();
-      }catch(error){
-        alert(currentLang === 'vi' ? 'Gửi chưa thành công. Vui lòng nhắn trực tiếp qua Zalo/Messenger.' : 'Submission failed. Please contact us via Zalo/Messenger.');
-      }finally{
-        submitButton.disabled = false;
-        submitButton.textContent = currentLang === 'vi' ? 'Gửi thông tin tư vấn' : 'Submit consultation request';
-      }
-    }
-
-    function setLang(lang){
-      currentLang = lang;
-      document.documentElement.lang = lang;
-      document.getElementById('btnVi').classList.toggle('active', lang === 'vi');
-      document.getElementById('btnEn').classList.toggle('active', lang === 'en');
-
-      document.querySelectorAll('[data-vi][data-en]').forEach(el => {
-        el.innerHTML = el.getAttribute('data-' + lang);
-      });
-
-      document.querySelectorAll('[data-placeholder-vi][data-placeholder-en]').forEach(el => {
-        el.placeholder = el.getAttribute('data-placeholder-' + lang);
-      });
-
-      document.querySelectorAll('select option[data-vi][data-en]').forEach(option => {
-        option.textContent = option.getAttribute('data-' + lang);
-      });
-    }
-      const observer = new IntersectionObserver((entries)=>{
-      entries.forEach(entry=>{
-        if(entry.isIntersecting){
-          entry.target.classList.add('show');
-        }
-      });
-    },{threshold:.15});
-
-    document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
-  </script>
-</body>
-</html>
+          <h2 data-vi="Đăng ký tư vấn miễn phí" data-en="Request a free consultation">Đăng ký tư vấn miễn phí<
