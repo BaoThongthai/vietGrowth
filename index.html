@@ -1,446 +1,1004 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Viet Growth EU - Media trọn gói tại Châu Âu</title>
-  <meta name="description"
-    content="Viet Growth EU cung cấp dịch vụ media trọn gói: Ads, Content, Video, Website cho người Việt tại Châu Âu." />
-  <meta name="theme-color" content="#07142b" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Viet Growth EU" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Viet Growth EU - Media trọn gói cho người Việt tại Châu Âu" />
-  <meta property="og:description"
-    content="Ads • Content • Video • Website. Giúp người Việt tại EU bán hàng online hiệu quả hơn." />
-  <meta property="og:image" content="https://github.com/BaoThongthai/vietGrowth/blob/main/paner.png?raw=true" />
-  <meta property="og:url" content="https://baothongthai.github.io/vietGrowth/" />
-  <meta property="og:site_name" content="Viet Growth EU" />
-  <link rel="canonical" href="https://baothongthai.github.io/vietGrowth/" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%2307142b'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='118' font-weight='900' fill='%23f5c542'%3EVG%3C/text%3E%3Ctext x='50%25' y='66%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='42' font-weight='800' fill='white'%3EEU%3C/text%3E%3C/svg%3E" />
-  <link rel="apple-touch-icon"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%2307142b'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='118' font-weight='900' fill='%23f5c542'%3EVG%3C/text%3E%3Ctext x='50%25' y='66%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='42' font-weight='800' fill='white'%3EEU%3C/text%3E%3C/svg%3E" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Viet Growth EU | Giải Pháp Digital Marketing Châu Âu</title>
+<meta name="description" content="Viet Growth EU cung cấp giải pháp truyền thông và digital marketing trọn gói cho người Việt kinh doanh tại Châu Âu"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Montserrat",sans-serif;font-size:15px;color:#2d2d2d;overflow-x:hidden;background:#fff}
+a{color:#2d2d2d;text-decoration:none}
+img{max-width:100%;display:block}
+ul{list-style:none}
+.container{max-width:1250px;margin:0 auto;padding:0 20px}
+
+/* TOP BAR */
+#top-bar{background:linear-gradient(90deg,#0C2A72,#6025E1);padding:9px 0}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.topbar-msg{color:#fff;font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:6px}
+.topbar-msg i{font-size:5px;color:#ffd700}
+.topbar-langs{display:flex;gap:8px}
+.topbar-langs a{color:rgba(255,255,255,.75);font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;transition:color .2s}
+.topbar-langs a:hover{color:#fff}
+.topbar-langs img{width:18px;height:18px;border-radius:2px}
+
+/* HEADER */
+#header{position:sticky;top:0;z-index:999;background:#fff;box-shadow:0 2px 18px rgba(0,0,0,.09);transition:all .3s}
+.header-main{height:90px;display:flex;align-items:center}
+.header-inner{display:flex;align-items:center;justify-content:space-between;width:100%;gap:20px}
+.logo-wrap{display:flex;flex-direction:column;line-height:1}
+.logo-name{font-size:21px;font-weight:900;color:#0c2a72;letter-spacing:-.03em}
+.logo-name span{color:#6025E1}
+.logo-tagline{font-size:9.5px;font-weight:700;color:#888;letter-spacing:.12em;text-transform:uppercase;margin-top:3px}
+
+/* NAV */
+.nav-menu{display:flex;align-items:center;gap:2px}
+.nav-menu > li{position:relative}
+.nav-menu > li > a{font-size:12.5px;font-weight:700;color:#2d2d2d;padding:10px 13px;display:block;text-transform:uppercase;transition:color .2s;white-space:nowrap}
+.nav-menu > li > a:hover,.nav-menu > li.active > a{color:#0c2a72}
+.nav-menu > li.has-dd > a::after{content:" ▾";font-size:9px;opacity:.6}
+.nav-dd{display:none;position:absolute;top:calc(100% + 6px);left:0;background:#fff;box-shadow:0 10px 48px rgba(0,0,0,.14);border-top:3px solid #0c2a72;border-radius:0 0 10px 10px;min-width:340px;z-index:300;padding:10px 0}
+.nav-menu > li.has-dd:hover .nav-dd{display:block;animation:ddFade .18s ease}
+@keyframes ddFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.nav-dd li a{display:flex;align-items:flex-start;gap:10px;padding:11px 18px;font-size:12.5px;color:#333;transition:background .2s}
+.nav-dd li a:hover{background:#f5f7ff;color:#0c2a72}
+.nav-dd li a strong{display:block;font-size:12.5px;color:#0c2a72;margin-bottom:2px;font-weight:700}
+.nav-dd li a p{font-size:11px;color:#777;line-height:1.4;margin:0;font-weight:400}
+.dd-icon{width:30px;height:30px;flex-shrink:0;background:linear-gradient(135deg,#0c2a72,#6025E1);border-radius:7px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;margin-top:1px}
+.nav-cta{background:linear-gradient(90deg,#0C2A72,#6025E1);color:#fff !important;padding:11px 22px !important;border-radius:99px !important;font-size:12.5px !important;font-weight:800 !important;transition:all .3s !important;white-space:nowrap;text-transform:uppercase !important}
+.nav-cta:hover{background:linear-gradient(90deg,#ff5e00,#ff5e00) !important;transform:translateY(-1px);box-shadow:0 6px 20px rgba(12,42,114,.3)}
+.mob-btn{display:none;background:none;border:none;font-size:22px;color:#0c2a72;cursor:pointer;padding:4px}
+@media(max-width:960px){
+  .nav-menu{display:none;position:fixed;top:90px;left:0;right:0;bottom:0;background:#fff;flex-direction:column;align-items:stretch;padding:12px 0;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.15);z-index:998}
+  .nav-menu.open{display:flex}
+  .nav-menu > li > a{padding:14px 20px;border-bottom:1px solid #f2f2f2;font-size:14px}
+  .nav-dd{display:none!important}
+  .mob-btn{display:block}
+}
+
+/* BUTTONS */
+.btn-main{background:linear-gradient(90deg,#0C2A72,#6025E1);color:#fff;padding:13px 30px;border-radius:99px;font-family:"Montserrat",sans-serif;font-weight:700;font-size:13.5px;display:inline-flex;align-items:center;gap:8px;transition:all .3s;border:none;cursor:pointer;text-transform:lowercase}
+.btn-main:hover{background:linear-gradient(90deg,#ff5e00,#ff5e00);color:#fff;transform:translateY(-2px);box-shadow:0 8px 28px rgba(12,42,114,.3)}
+.btn-outline{background:transparent;color:#0c2a72;border:2px solid #0c2a72;padding:11px 26px;border-radius:99px;font-family:"Montserrat",sans-serif;font-weight:700;font-size:13px;display:inline-flex;align-items:center;gap:8px;transition:all .3s;text-transform:lowercase}
+.btn-outline:hover{background:#ff5e00;border-color:#ff5e00;color:#fff;transform:translateY(-2px)}
+.btn-text{color:#0c2a72;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:6px;transition:gap .2s,color .2s}
+.btn-text:hover{gap:10px;color:#ff5e00}
+
+/* SECTIONS */
+.section{padding:64px 0}
+.section-alt{background:#f8f9ff}
+.section-dark{background:linear-gradient(90deg,#0C2A72,#6025E1)}
+.sub-label{font-size:12px;font-weight:700;color:#0c2a72;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.sub-label i{font-size:5px;color:#6025E1}
+.section-h2{font-size:clamp(20px,2.8vw,34px);font-weight:800;text-transform:uppercase;line-height:1.2;margin-bottom:14px;background:linear-gradient(90deg,#082774,#082774);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.section-desc{font-size:14px;color:#555;line-height:1.75;font-weight:500}
+.tc{text-align:center}
+.tc .sub-label{justify-content:center}
+.tc .section-desc{max-width:620px;margin:0 auto}
+.divider{width:48px;height:3px;background:linear-gradient(90deg,#0c2a72,#6025E1);border-radius:2px;margin:14px 0 24px}
+.tc .divider{margin:14px auto 24px}
+
+/* HERO */
+.hero{padding:56px 0 40px;position:relative;overflow:hidden;background:#fff}
+.hero::after{content:'';position:absolute;top:0;right:0;width:50%;height:100%;background:linear-gradient(135deg,rgba(12,42,114,.03),rgba(96,37,225,.05));clip-path:polygon(10% 0,100% 0,100% 100%,0 100%);z-index:0}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;position:relative;z-index:1}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr;gap:40px}}
+.hero-eyebrow{font-size:11.5px;font-weight:700;color:#6025E1;letter-spacing:.15em;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.hero-eyebrow::before{content:'';width:28px;height:2px;background:linear-gradient(90deg,#0c2a72,#6025E1)}
+.hero-h1{font-size:clamp(26px,3.8vw,50px);font-weight:900;line-height:1.1;color:#0c2a72;margin-bottom:10px;text-transform:uppercase}
+.hero-rotate{font-size:clamp(26px,3.8vw,50px);font-weight:900;line-height:1.15;text-transform:uppercase;min-height:1.2em}
+.hero-rotate .typed{background:linear-gradient(90deg,#ff5e00,#e04000);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-h3{font-size:14px;color:#555;line-height:1.7;margin:16px 0 32px;font-weight:500}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+/* Hero visual */
+.hero-visual{position:relative}
+.hero-img-main{border-radius:20px;overflow:hidden;box-shadow:0 20px 72px rgba(12,42,114,.18);aspect-ratio:4/3}
+.hero-img-main img{width:100%;height:100%;object-fit:cover}
+.hero-float-1{position:absolute;bottom:-18px;left:-18px;width:190px;border-radius:14px;overflow:hidden;border:3px solid #fff;box-shadow:0 10px 36px rgba(0,0,0,.18)}
+.hero-float-1 img{width:100%;height:130px;object-fit:cover}
+.hero-float-badge{position:absolute;top:22px;right:-14px;background:linear-gradient(135deg,#0c2a72,#6025E1);color:#fff;border-radius:14px;padding:16px 20px;box-shadow:0 8px 32px rgba(12,42,114,.4);text-align:center;min-width:130px}
+.hero-float-badge .num{font-size:30px;font-weight:900;display:block;line-height:1}
+.hero-float-badge .lbl{font-size:10px;opacity:.85;font-weight:600;line-height:1.3;margin-top:4px;display:block}
+.hero-float-badge2{position:absolute;bottom:60px;right:-18px;background:#fff;border-radius:12px;padding:12px 16px;box-shadow:0 6px 24px rgba(0,0,0,.14);display:flex;align-items:center;gap:10px}
+.hero-float-badge2 .icon{width:36px;height:36px;background:linear-gradient(135deg,#ff5e00,#ff8800);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;flex-shrink:0}
+.hero-float-badge2 .txt strong{display:block;font-size:14px;font-weight:900;color:#0c2a72}
+.hero-float-badge2 .txt span{font-size:10px;color:#888;font-weight:600}
+
+/* STATS */
+.stats-bar{background:linear-gradient(90deg,#0C2A72,#6025E1);padding:44px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+@media(max-width:700px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+.stat-num{font-size:44px;font-weight:900;color:#fff;line-height:1;font-family:"Montserrat",sans-serif}
+.stat-num sup{font-size:22px}
+.stat-lbl{font-size:13px;color:rgba(255,255,255,.8);font-weight:600;margin-top:6px}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+@media(max-width:800px){.about-grid{grid-template-columns:1fr;gap:40px}}
+.about-img-wrap{position:relative;border-radius:20px;overflow:hidden}
+.about-img-wrap img{width:100%;height:480px;object-fit:cover}
+.about-img-badge{position:absolute;bottom:24px;right:24px;background:#fff;border-radius:14px;padding:18px 22px;box-shadow:0 8px 32px rgba(0,0,0,.14);text-align:center}
+.about-img-badge .n{font-size:38px;font-weight:900;color:#0c2a72;line-height:1}
+.about-img-badge .l{font-size:11px;color:#777;font-weight:600}
+.about-checklist{margin-top:24px;display:flex;flex-direction:column;gap:13px}
+.about-checklist li{display:flex;align-items:flex-start;gap:11px;font-size:13.5px;color:#444;line-height:1.5;font-weight:500}
+.about-checklist li i{color:#0c2a72;font-size:13px;margin-top:3px;flex-shrink:0}
+
+/* VIDEO BANNER — sec-3 */
+.video-banner{background:linear-gradient(rgba(8,39,116,.82),rgba(8,39,116,.82));background-size:cover;background-position:center;padding:80px 20px;text-align:center;position:relative;overflow:hidden}
+.video-banner-bg{position:absolute;inset:0;background:linear-gradient(135deg,#082774 0%,#3a0f8a 100%);z-index:0}
+.video-banner-content{position:relative;z-index:1}
+.vb-eyebrow{font-size:12px;font-weight:700;color:rgba(255,255,255,.8);letter-spacing:.15em;text-transform:uppercase;margin-bottom:10px}
+.vb-eyebrow span{background:#0c2a72;padding:4px 14px;color:#fff;border-radius:4px;font-size:12px}
+.vb-title{font-size:clamp(20px,3vw,38px);font-weight:800;color:#fff;text-transform:uppercase;margin:14px 0 28px;line-height:1.2}
+.play-btn{width:82px;height:82px;background:radial-gradient(#ff5e00 60%,rgba(255,255,255,1) 62%);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 0 0 0 rgba(255,94,0,.5);animation:pulse-play 2s infinite;text-decoration:none;position:relative;cursor:pointer;border:none;margin:0 auto}
+.play-btn i{color:#fff;font-size:24px;margin-left:5px}
+@keyframes pulse-play{0%{box-shadow:0 0 0 0 rgba(255,94,0,.5)}70%{box-shadow:0 0 0 22px rgba(255,94,0,0)}100%{box-shadow:0 0 0 0 rgba(255,94,0,0)}}
+/* Video modal */
+.video-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:2000;align-items:center;justify-content:center}
+.video-modal.open{display:flex}
+.video-modal-inner{position:relative;width:90%;max-width:900px}
+.video-modal-inner iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:10px}
+.video-modal-close{position:absolute;top:-40px;right:0;background:none;border:none;color:#fff;font-size:28px;cursor:pointer;line-height:1}
+
+/* SERVICES SECTION (3x3 grid — 9 cards) */
+.services-9{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:960px){.services-9{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.services-9{grid-template-columns:1fr}}
+.svc-card{background:#fff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,.08);overflow:hidden;transition:transform .3s,box-shadow .3s;border:1px solid #eef}
+.svc-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(12,42,114,.15)}
+.svc-card-thumb{position:relative;width:100%;padding-top:56.25%;overflow:hidden}
+.svc-card-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.svc-card:hover .svc-card-thumb img{transform:scale(1.06)}
+.svc-card-body{padding:22px}
+.svc-card-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.svc-icon{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,#0c2a72,#6025E1);display:flex;align-items:center;justify-content:center;color:#fff;font-size:17px;flex-shrink:0}
+.svc-card-head h3{font-size:14px;font-weight:800;color:#0c2a72;text-transform:uppercase;line-height:1.25}
+.svc-card-head p{font-size:11.5px;color:#888;margin-top:2px;font-weight:500}
+.svc-card-desc{font-size:12.5px;color:#666;line-height:1.65;font-weight:500;text-align:center;margin-bottom:18px}
+.svc-card-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.svc-btn-main{background:linear-gradient(90deg,#0C2A72,#6025E1);color:#fff;padding:9px 20px;border-radius:99px;font-size:12px;font-weight:700;transition:all .3s;white-space:nowrap}
+.svc-btn-main:hover{background:linear-gradient(90deg,#ff5e00,#ff5e00);color:#fff}
+.svc-btn-link{color:#2d2d2d;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:5px;padding:9px 0;transition:color .2s}
+.svc-btn-link:hover{color:#ff5e00}
+
+/* CLIENTS */
+.clients-wrap{overflow:hidden;padding:4px 0}
+.clients-track{display:flex;gap:18px;animation:marquee 32s linear infinite;width:max-content}
+.clients-track:hover{animation-play-state:paused}
+.clients-track2{animation-direction:reverse;margin-top:18px}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.client-card{flex-shrink:0;background:#fff;border-radius:8px;box-shadow:0 2px 14px rgba(0,0,0,.07);border:1px solid #eee;padding:14px 22px;height:76px;min-width:158px;display:flex;align-items:center;justify-content:center;transition:box-shadow .2s}
+.client-card:hover{box-shadow:0 6px 24px rgba(12,42,114,.12)}
+.client-card span{font-size:12.5px;font-weight:700;color:#0c2a72;white-space:nowrap}
+
+/* PROJECTS */
+.proj-tabs{display:flex;gap:0;border-bottom:2px solid #e8e8e8;margin-bottom:36px;overflow-x:auto;scrollbar-width:none}
+.proj-tabs::-webkit-scrollbar{display:none}
+.ptab{background:none;border:none;font-family:"Montserrat",sans-serif;font-size:12.5px;font-weight:700;color:#888;padding:12px 22px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .2s;white-space:nowrap;text-transform:uppercase}
+.ptab.active,.ptab:hover{color:#0c2a72;border-bottom-color:#0c2a72}
+.ptab-content{display:none}
+.ptab-content.active{display:block}
+.proj-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+@media(max-width:720px){.proj-layout{grid-template-columns:1fr}}
+.proj-main{border-radius:12px;overflow:hidden;position:relative;box-shadow:0 4px 24px rgba(0,0,0,.1)}
+.proj-main img{width:100%;height:340px;object-fit:cover;transition:transform .5s;display:block}
+.proj-main:hover img{transform:scale(1.04)}
+.proj-overlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,39,116,.88) 0%,transparent 55%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px}
+.proj-overlay h3{color:#fff;font-size:18px;font-weight:800;margin-bottom:10px;line-height:1.3}
+.proj-overlay .btn-sm{display:inline-block;background:#fff;color:#0c2a72;font-size:12px;font-weight:700;padding:7px 18px;border-radius:99px;transition:all .2s}
+.proj-overlay .btn-sm:hover{background:#ff5e00;color:#fff}
+.proj-sidebar{display:flex;flex-direction:column;gap:18px}
+.proj-thumb{border-radius:10px;overflow:hidden;position:relative;box-shadow:0 4px 16px rgba(0,0,0,.09)}
+.proj-thumb img{width:100%;height:152px;object-fit:cover;transition:transform .5s;display:block}
+.proj-thumb:hover img{transform:scale(1.05)}
+.proj-thumb-ov{position:absolute;inset:0;background:rgba(8,39,116,.75);display:flex;flex-direction:column;justify-content:flex-end;padding:16px;opacity:0;transition:opacity .3s}
+.proj-thumb:hover .proj-thumb-ov{opacity:1}
+.proj-thumb-ov h4{color:#fff;font-size:13px;font-weight:700;margin-bottom:8px}
+.proj-thumb-ov .btn-sm{display:inline-block;background:#fff;color:#0c2a72;font-size:11px;font-weight:700;padding:5px 14px;border-radius:99px}
+
+/* PROCESS */
+.process-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+@media(max-width:860px){.process-row{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.process-row{grid-template-columns:1fr}}
+.proc-step{background:#fff;border-radius:14px;border:1px solid #eef;padding:32px 24px;text-align:center;transition:box-shadow .3s,transform .3s}
+.proc-step:hover{box-shadow:0 10px 40px rgba(12,42,114,.1);transform:translateY(-4px)}
+.proc-num{width:56px;height:56px;background:linear-gradient(135deg,#0c2a72,#6025E1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:22px;font-weight:900;color:#fff;font-family:"Montserrat",sans-serif}
+.proc-step h3{font-size:13.5px;font-weight:800;color:#0c2a72;text-transform:uppercase;margin-bottom:10px;line-height:1.3}
+.proc-step p{font-size:12px;color:#666;line-height:1.65;font-weight:500}
+
+/* TESTIMONIALS */
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media(max-width:860px){.testi-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.testi-grid{grid-template-columns:1fr}}
+.testi-card{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:28px;backdrop-filter:blur(8px)}
+.testi-stars{color:#ffd700;font-size:14px;letter-spacing:2px;margin-bottom:12px}
+.testi-text{font-size:13.5px;color:#fff;line-height:1.7;font-style:italic;margin-bottom:20px;font-weight:500}
+.testi-author{display:flex;align-items:center;gap:12px}
+.testi-av{width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:900;color:#fff;flex-shrink:0}
+.testi-name{font-size:13px;font-weight:700;color:#fff}
+.testi-role{font-size:11px;color:rgba(255,255,255,.7);margin-top:2px;font-weight:500}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:64px;align-items:start}
+@media(max-width:860px){.contact-grid{grid-template-columns:1fr;gap:40px}}
+.cinfo-item{display:flex;align-items:center;gap:14px;padding:16px 0;border-bottom:1px solid #eee}
+.cinfo-item:last-child{border-bottom:none}
+.cinfo-icon{width:44px;height:44px;background:linear-gradient(135deg,#0c2a72,#6025E1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;flex-shrink:0}
+.cinfo-text label{display:block;font-size:10.5px;color:#aaa;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
+.cinfo-text strong{font-size:14px;color:#2d2d2d;font-weight:700}
+.cinfo-text a{color:#0c2a72;font-weight:700}
+.form-card{background:#fff;border-radius:18px;box-shadow:0 8px 52px rgba(12,42,114,.13);padding:40px}
+@media(max-width:480px){.form-card{padding:28px 20px}}
+.form-card h3{font-size:20px;font-weight:800;color:#0c2a72;text-transform:uppercase;margin-bottom:6px}
+.form-card p{font-size:13px;color:#888;margin-bottom:28px;font-weight:500}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:560px){.form-row{grid-template-columns:1fr}}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-size:11px;font-weight:700;color:#555;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em}
+.fg input,.fg select,.fg textarea{width:100%;border:1.5px solid #e5e8f0;border-radius:9px;padding:12px 15px;font-family:"Montserrat",sans-serif;font-size:13px;color:#2d2d2d;outline:none;transition:border-color .2s;background:#fafbff}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:#0c2a72}
+.fg textarea{min-height:96px;resize:vertical}
+.fg select{cursor:pointer;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23666' d='M6 8L0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:10px}
+.form-submit{width:100%;background:linear-gradient(90deg,#0C2A72,#6025E1);color:#fff;font-family:"Montserrat",sans-serif;font-weight:800;font-size:14.5px;padding:16px;border:none;border-radius:99px;cursor:pointer;transition:all .3s;text-transform:uppercase;letter-spacing:.05em;margin-top:6px}
+.form-submit:hover{background:linear-gradient(90deg,#ff5e00,#ff5e00);transform:translateY(-2px);box-shadow:0 8px 32px rgba(12,42,114,.3)}
+.form-success{display:none;text-align:center;padding:32px 0}
+.form-success .fs-ico{font-size:52px;margin-bottom:12px}
+.form-success h3{color:#0c2a72;font-size:20px;margin-bottom:10px}
+.form-success p{color:#666;font-size:14px;line-height:1.6}
+
+/* FOOTER */
+footer{background:linear-gradient(90deg,#0C2A72,#6025E1);padding:60px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px}
+@media(max-width:860px){.footer-grid{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:540px){.footer-grid{grid-template-columns:1fr;gap:28px}}
+.footer-brand p{font-size:13px;color:rgba(255,255,255,.75);line-height:1.7;margin-top:14px;font-weight:500}
+.footer-logo{font-size:20px;font-weight:900;color:#fff;letter-spacing:-.03em}
+.footer-logo span{color:#ffd700}
+.footer-social{display:flex;gap:10px;margin-top:20px}
+.footer-social a{width:38px;height:38px;background:rgba(255,255,255,.15);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;transition:background .2s}
+.footer-social a:hover{background:rgba(255,255,255,.3)}
+.footer-col h4{font-size:12.5px;font-weight:800;color:#fff;text-transform:uppercase;letter-spacing:.08em;margin-bottom:18px}
+.footer-col li{margin-bottom:10px}
+.footer-col li a{font-size:13px;color:rgba(255,255,255,.72);font-weight:500;transition:all .2s;display:flex;align-items:center;gap:7px}
+.footer-col li a::before{content:'›';font-size:16px;color:#ffd700;flex-shrink:0}
+.footer-col li a:hover{color:#fff;padding-left:4px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.15);margin-top:50px;padding:20px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.footer-bottom p{font-size:12px;color:rgba(255,255,255,.6);font-weight:500}
+
+/* FLOAT */
+.float-btns{position:fixed;bottom:24px;right:18px;display:flex;flex-direction:column;gap:10px;z-index:600}
+.fb{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 22px rgba(0,0,0,.25);transition:transform .2s,box-shadow .2s;text-decoration:none;font-weight:700}
+.fb:hover{transform:scale(1.13);box-shadow:0 8px 32px rgba(0,0,0,.32)}
+.fb-z{background:#0068ff;color:#fff;font-family:"Montserrat",sans-serif;font-size:12px;font-weight:900}
+.fb-w{background:#25d366;color:#fff}
+.fb-m{background:#0084ff;color:#fff}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .65s cubic-bezier(.22,1,.36,1),transform .65s cubic-bezier(.22,1,.36,1)}
+.reveal.visible{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}.d7{transition-delay:.56s}.d8{transition-delay:.64s}.d9{transition-delay:.72s}
+</style>
 </head>
-
 <body>
-  <header class="hero">
-    <div class="glow"></div>
-    <div class="wrap">
-      <nav class="nav">
-        <div class="logo">Viet Growth <span>EU</span></div>
-        <div class="nav-actions">
-          <div class="lang-toggle"><button id="btnVi" class="active" onclick="setLang('vi')">VI</button><button
-              id="btnEn" onclick="setLang('en')">EN</button></div>
-          <a class="nav-cta" href="#form" data-vi="Tư vấn miễn phí" data-en="Free consultation">Tư vấn miễn phí</a>
-        </div>
-      </nav>
-      <div class="hero-grid">
-        <div>
-          <div class="badge" data-vi="Media trọn gói cho người Việt tại Châu Âu"
-            data-en="Full-service media for Vietnamese businesses in Europe">Media trọn gói cho người Việt tại Châu Âu
-          </div>
-          <h1 data-vi="Sản phẩm tốt nhưng <span>vẫn chưa ra đơn?</span>"
-            data-en="Great product, but <span>still no sales?</span>">Sản phẩm tốt nhưng <span>vẫn chưa ra đơn?</span>
-          </h1>
-          <p class="lead"
-            data-vi="Viet Growth EU giúp doanh nghiệp xây dựng content, hình ảnh marketing, video, website và quảng cáo để khách nhìn là hiểu — đọc là tin — và dễ ra đơn hơn."
-            data-en="Viet Growth EU helps businesses create content, marketing visuals, videos, websites and ads so customers understand fast, trust faster and take action.">
-            Viet Growth EU giúp doanh nghiệp xây dựng content, hình ảnh marketing, video, website và quảng cáo để khách
-            nhìn là hiểu — đọc là tin — và dễ ra đơn hơn.</p>
-          <div class="btns"><a class="btn btn-main" href="#form" data-vi="Nhận tư vấn ngay"
-              data-en="Get consultation">Nhận tư vấn ngay</a><a class="btn btn-sub" href="https://wa.me/84773183737"
-              target="_blank">Chat WhatsApp</a><a class="btn btn-sub"
-              href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Facebook Page</a></div>
-        </div>
-        <img class="floating-img float-1"
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=900&auto=format&fit=crop"
-          alt="marketing team">
-        <img class="floating-img float-2"
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=900&auto=format&fit=crop"
-          alt="business meeting">
-        <div class="hero-card fade-up">
-          <div class="mock">
-            <h3>Ads • Content • Video • Website</h3>
-            <p data-vi="Tập trung chuyển đổi, không làm marketing cho vui."
-              data-en="Built for conversion, not just for looking good.">Tập trung chuyển đổi, không làm marketing cho
-              vui.</p>
-            <div class="chart"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section class="pain">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Vì sao sản phẩm tốt vẫn khó bán?" data-en="Why good products still struggle to sell">Vì sao sản
-          phẩm tốt vẫn khó bán?</h2>
-        <p data-vi="Đa số khách không có thời gian đọc kỹ. Họ quyết định trong vài giây đầu tiên."
-          data-en="Most customers do not read carefully. They decide within the first few seconds.">Đa số khách không có
-          thời gian đọc kỹ. Họ quyết định trong vài giây đầu tiên.</p>
-      </div>
-      <div class="pain-grid">
-        <div class="pain-item fade-up"><b data-vi="Content chưa chạm insight"
-            data-en="Content misses the insight">Content chưa chạm insight</b><span
-            data-vi="Khách đọc xong không thấy lý do phải mua ngay."
-            data-en="Customers do not see a strong reason to buy now.">Khách đọc xong không thấy lý do phải mua
-            ngay.</span></div>
-        <div class="pain-item fade-up"><b data-vi="Hình ảnh chưa đủ giữ chân"
-            data-en="Visuals do not stop the scroll">Hình ảnh chưa đủ giữ chân</b><span
-            data-vi="Sản phẩm tốt nhưng trình bày chưa nổi bật, dễ bị lướt qua."
-            data-en="Your product may be good, but the presentation is not strong enough.">Sản phẩm tốt nhưng trình bày
-            chưa nổi bật, dễ bị lướt qua.</span></div>
-        <div class="pain-item fade-up"><b data-vi="Ads có view nhưng không chốt"
-            data-en="Ads get views but no leads">Ads có view nhưng không chốt</b><span
-            data-vi="Thông điệp chưa rõ, landing chưa tối ưu, CTA chưa đủ mạnh."
-            data-en="The message is unclear, the landing page is weak, or the CTA is not convincing.">Thông điệp chưa
-            rõ, landing chưa tối ưu, CTA chưa đủ mạnh.</span></div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Dịch vụ của Viet Growth EU" data-en="Viet Growth EU services">Dịch vụ của Viet Growth EU</h2>
-        <p data-vi="Phù hợp cho shop, nhà hàng, dịch vụ, cá nhân kinh doanh và doanh nghiệp Việt tại EU."
-          data-en="For shops, restaurants, service businesses and Vietnamese entrepreneurs in Europe.">Phù hợp cho shop,
-          nhà hàng, dịch vụ, cá nhân kinh doanh và doanh nghiệp Việt tại EU.</p>
-      </div>
-      <div class="cards">
-        <div class="card fade-up">
-          <h3 data-vi="Chạy quảng cáo" data-en="Advertising">Chạy quảng cáo</h3>
-          <p data-vi="Facebook, Google, TikTok Ads. Tối ưu theo mục tiêu inbox, lead, website hoặc đơn hàng."
-            data-en="Facebook, Google and TikTok Ads optimized for messages, leads, website traffic or sales.">Facebook,
-            Google, TikTok Ads. Tối ưu theo mục tiêu inbox, lead, website hoặc đơn hàng.</p>
-        </div>
-        <div class="card fade-up">
-          <h3>Content Marketing</h3>
-          <p data-vi="Viết bài bán hàng, bài giới thiệu, bài kéo inbox, kịch bản video ngắn."
-            data-en="Sales posts, brand introduction posts, inbox-driven content and short video scripts.">Viết bài bán
-            hàng, bài giới thiệu, bài kéo inbox, kịch bản video ngắn.</p>
-        </div>
-        <div class="card fade-up">
-          <h3 data-vi="Hình ảnh & Video" data-en="Visuals & Video">Hình ảnh & Video</h3>
-          <p data-vi="Thiết kế post, banner, story, video quảng cáo ngắn, hình ảnh sản phẩm chuyên nghiệp."
-            data-en="Posts, banners, stories, short ads and professional product visuals.">Thiết kế post, banner, story,
-            video quảng cáo ngắn, hình ảnh sản phẩm chuyên nghiệp.</p>
-        </div>
-        <div class="card fade-up">
-          <h3>Website / Landing Page</h3>
-          <p data-vi="Làm web giới thiệu dịch vụ, landing page lấy thông tin khách hàng, tối ưu chuyển đổi."
-            data-en="Business websites and landing pages designed to collect leads and improve conversion.">Làm web giới
-            thiệu dịch vụ, landing page lấy thông tin khách hàng, tối ưu chuyển đổi.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Một vài concept tụi tui có thể làm cho bạn"
-          data-en="Some concepts we can create for your business">Một vài concept tụi tui có thể làm cho bạn</h2>
-        <p data-vi="Hình ảnh chuyên nghiệp giúp khách dừng lại và nhớ tới thương hiệu của bạn."
-          data-en="Professional visuals help customers stop scrolling and remember your brand.">Hình ảnh chuyên nghiệp
-          giúp khách dừng lại và nhớ tới thương hiệu của bạn.</p>
-      </div>
-      <div class="gallery">
-        <div class="gallery-item fade-up"><img
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
-            alt="ads dashboard">
-          <div class="content">
-            <h3 data-vi="Ads chuyển đổi" data-en="High-converting ads">Ads chuyển đổi</h3>
-            <p data-vi="Thiết kế visual và nội dung tập trung kéo inbox, lead và đơn hàng."
-              data-en="Visuals and content designed to generate leads and sales.">Thiết kế visual và nội dung tập trung
-              kéo inbox, lead và đơn hàng.</p>
-          </div>
-        </div>
-        <div class="gallery-item fade-up"><img
-            src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1200&auto=format&fit=crop"
-            alt="website design">
-          <div class="content">
-            <h3 data-vi="Website hiện đại" data-en="Modern websites">Website hiện đại</h3>
-            <p data-vi="Landing page và website tối ưu trải nghiệm và tỷ lệ chuyển đổi."
-              data-en="Landing pages and websites optimized for user experience and conversion.">Landing page và website
-              tối ưu trải nghiệm và tỷ lệ chuyển đổi.</p>
-          </div>
-        </div>
-        <div class="gallery-item fade-up"><img
-            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
-            alt="content creation">
-          <div class="content">
-            <h3 data-vi="Content bán hàng" data-en="Sales-driven content">Content bán hàng</h3>
-            <p data-vi="Xây nội dung đúng insight giúp khách hiểu nhanh và dễ chốt hơn."
-              data-en="Content that matches customer insight and drives faster buying decisions.">Xây nội dung đúng
-              insight giúp khách hiểu nhanh và dễ chốt hơn.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="who">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Trang này dành cho ai?" data-en="Who is this for?">Trang này dành cho ai?</h2>
-        <p data-vi="Nếu bạn đang kinh doanh tại Châu Âu và muốn bán hàng online bài bản hơn, Viet Growth EU có thể đồng hành cùng bạn."
-          data-en="If you run a business in Europe and want to sell online more professionally, Viet Growth EU can support you.">
-          Nếu bạn đang kinh doanh tại Châu Âu và muốn bán hàng online bài bản hơn, Viet Growth EU có thể đồng hành cùng
-          bạn.</p>
-      </div>
-      <div class="who-grid">
-        <div class="who-list">
-          <div class="who-item fade-up"><b data-vi="Shop online / cửa hàng Việt"
-              data-en="Online shops / Vietnamese stores">Shop online / cửa hàng Việt</b><br><span
-              data-vi="Cần hình ảnh đẹp, bài bán hàng rõ và quảng cáo kéo khách đều hơn."
-              data-en="Need better visuals, clearer sales content and ads that bring steady leads.">Cần hình ảnh đẹp,
-              bài bán hàng rõ và quảng cáo kéo khách đều hơn.</span></div>
-          <div class="who-item fade-up"><b data-vi="Nhà hàng, quán ăn, tiệm nail, dịch vụ"
-              data-en="Restaurants, nail salons and service businesses">Nhà hàng, quán ăn, tiệm nail, dịch
-              vụ</b><br><span data-vi="Cần tăng khách địa phương, booking, inbox và nhận diện thương hiệu."
-              data-en="Need more local customers, bookings, messages and stronger branding.">Cần tăng khách địa phương,
-              booking, inbox và nhận diện thương hiệu.</span></div>
-          <div class="who-item fade-up"><b data-vi="Doanh nghiệp mới bắt đầu" data-en="New businesses">Doanh nghiệp mới
-              bắt đầu</b><br><span
-              data-vi="Cần làm từ đầu: logo, page, content, website, landing page và chiến dịch ads."
-              data-en="Need everything from the start: logo, page, content, website, landing page and ad campaigns.">Cần
-              làm từ đầu: logo, page, content, website, landing page và chiến dịch ads.</span></div>
-        </div>
-        <div class="who-img fade-up"><img
-            src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?q=80&w=1200&auto=format&fit=crop"
-            alt="business consulting"></div>
-      </div>
-    </div>
-  </section>
-  <section class="why">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Vì sao nên làm media bài bản?" data-en="Why invest in professional media?">Vì sao nên làm media bài
-          bản?</h2>
-        <p data-vi="Khách hàng không chỉ mua sản phẩm. Họ mua sự tin tưởng, cảm giác chuyên nghiệp và lý do để chọn bạn thay vì đối thủ."
-          data-en="Customers do not only buy products. They buy trust, professionalism and a reason to choose you over competitors.">
-          Khách hàng không chỉ mua sản phẩm. Họ mua sự tin tưởng, cảm giác chuyên nghiệp và lý do để chọn bạn thay vì
-          đối thủ.</p>
-      </div>
-      <div class="why-grid">
-        <div class="why-card fade-up">
-          <h3 data-vi="Tăng độ tin tưởng" data-en="Build trust">Tăng độ tin tưởng</h3>
-          <p data-vi="Page, hình ảnh và website chỉn chu giúp khách cảm thấy bạn là thương hiệu đáng tin."
-            data-en="A polished page, visuals and website help customers see your business as trustworthy.">Page, hình
-            ảnh và website chỉn chu giúp khách cảm thấy bạn là thương hiệu đáng tin.</p>
-        </div>
-        <div class="why-card fade-up">
-          <h3 data-vi="Giảm lãng phí ads" data-en="Reduce ad waste">Giảm lãng phí ads</h3>
-          <p data-vi="Content và landing tốt giúp mỗi đồng quảng cáo có cơ hội chuyển đổi cao hơn."
-            data-en="Better content and landing pages give each ad budget a better chance to convert.">Content và
-            landing tốt giúp mỗi đồng quảng cáo có cơ hội chuyển đổi cao hơn.</p>
-        </div>
-        <div class="why-card fade-up">
-          <h3 data-vi="Bán hàng có hệ thống" data-en="Sell with a system">Bán hàng có hệ thống</h3>
-          <p data-vi="Không đăng bài cảm tính. Mỗi nội dung đều có mục tiêu: nhận diện, kéo inbox, chốt lead hoặc bán hàng."
-            data-en="No random posting. Every piece of content has a goal: awareness, inbox, leads or sales.">Không đăng
-            bài cảm tính. Mỗi nội dung đều có mục tiêu: nhận diện, kéo inbox, chốt lead hoặc bán hàng.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="process">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Quy trình làm việc" data-en="How we work">Quy trình làm việc</h2>
-        <p data-vi="Rõ ràng, nhanh, tập trung vào kết quả." data-en="Clear, fast and focused on results.">Rõ ràng,
-          nhanh, tập trung vào kết quả.</p>
-      </div>
-      <div class="steps">
-        <div class="step fade-up">
-          <div class="num">01</div>
-          <h3 data-vi="Phân tích sản phẩm" data-en="Product analysis">Phân tích sản phẩm</h3>
-          <p data-vi="Xác định khách hàng mục tiêu, điểm mạnh sản phẩm và vấn đề đang làm bạn chưa ra đơn."
-            data-en="We identify your target customers, product strengths and the reasons your offer is not converting yet.">
-            Xác định khách hàng mục tiêu, điểm mạnh sản phẩm và vấn đề đang làm bạn chưa ra đơn.</p>
-        </div>
-        <div class="step fade-up">
-          <div class="num">02</div>
-          <h3 data-vi="Xây nội dung & hình ảnh" data-en="Build content & visuals">Xây nội dung & hình ảnh</h3>
-          <p data-vi="Tạo concept bán hàng, thông điệp, hình ảnh, video và landing page phù hợp."
-            data-en="We create sales concepts, messages, visuals, videos and landing pages that fit your market.">Tạo
-            concept bán hàng, thông điệp, hình ảnh, video và landing page phù hợp.</p>
-        </div>
-        <div class="step fade-up">
-          <div class="num">03</div>
-          <h3 data-vi="Chạy & tối ưu" data-en="Launch & optimize">Chạy & tối ưu</h3>
-          <p data-vi="Theo dõi hiệu quả, tối ưu nội dung/quảng cáo để tăng tương tác, lead và chuyển đổi."
-            data-en="We track performance and optimize content and ads to improve engagement, leads and conversion.">
-            Theo dõi hiệu quả, tối ưu nội dung/quảng cáo để tăng tương tác, lead và chuyển đổi.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="packages">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Gói dịch vụ đề xuất" data-en="Suggested service packages">Gói dịch vụ đề xuất</h2>
-        <p data-vi="Bạn có thể bắt đầu nhỏ hoặc làm trọn gói tùy theo giai đoạn kinh doanh."
-          data-en="You can start small or choose a full package depending on your business stage.">Bạn có thể bắt đầu
-          nhỏ hoặc làm trọn gói tùy theo giai đoạn kinh doanh.</p>
-      </div>
-      <div class="package-grid">
-        <div class="package fade-up"><span class="tag" data-vi="Khởi động" data-en="Starter">Khởi động</span>
-          <h3 data-vi="Content + Hình ảnh" data-en="Content + Visuals">Content + Hình ảnh</h3>
-          <p data-vi="Phù hợp khi page còn yếu, bài đăng chưa thu hút."
-            data-en="Best when your page looks weak and posts are not engaging enough.">Phù hợp khi page còn yếu, bài
-            đăng chưa thu hút.</p>
-          <ul>
-            <li data-vi="Bài viết bán hàng" data-en="Sales posts">Bài viết bán hàng</li>
-            <li data-vi="Thiết kế post/banner" data-en="Post/banner design">Thiết kế post/banner</li>
-            <li data-vi="Ý tưởng nội dung theo tuần" data-en="Weekly content ideas">Ý tưởng nội dung theo tuần</li>
-          </ul>
-        </div>
-        <div class="package featured fade-up"><span class="tag" data-vi="Được chọn nhiều" data-en="Most popular">Được
-            chọn nhiều</span>
-          <h3 data-vi="Media trọn gói" data-en="Full-service Media">Media trọn gói</h3>
-          <p data-vi="Phù hợp cho doanh nghiệp muốn làm bài bản từ content đến quảng cáo."
-            data-en="Best for businesses that want a complete system from content to ads.">Phù hợp cho doanh nghiệp muốn
-            làm bài bản từ content đến quảng cáo.</p>
-          <ul>
-            <li data-vi="Content + hình ảnh + video" data-en="Content + visuals + video">Content + hình ảnh + video</li>
-            <li data-vi="Chạy quảng cáo Facebook/TikTok/Google" data-en="Facebook/TikTok/Google Ads">Chạy quảng cáo
-              Facebook/TikTok/Google</li>
-            <li data-vi="Theo dõi và tối ưu chiến dịch" data-en="Campaign tracking and optimization">Theo dõi và tối ưu
-              chiến dịch</li>
-          </ul>
-        </div>
-        <div class="package fade-up"><span class="tag" data-vi="Chuyển đổi" data-en="Conversion">Chuyển đổi</span>
-          <h3>Website / Landing Page</h3>
-          <p data-vi="Phù hợp khi bạn cần nơi giới thiệu dịch vụ và lấy thông tin khách hàng."
-            data-en="Best when you need a place to present your service and collect leads.">Phù hợp khi bạn cần nơi giới
-            thiệu dịch vụ và lấy thông tin khách hàng.</p>
-          <ul>
-            <li data-vi="Landing page giới thiệu dịch vụ" data-en="Service landing page">Landing page giới thiệu dịch vụ
-            </li>
-            <li data-vi="Form nhận tư vấn" data-en="Consultation form">Form nhận tư vấn</li>
-            <li data-vi="Tối ưu mobile và CTA" data-en="Mobile and CTA optimization">Tối ưu mobile và CTA</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="faq">
-    <div class="wrap">
-      <div class="title fade-up">
-        <h2 data-vi="Câu hỏi thường gặp" data-en="Frequently asked questions">Câu hỏi thường gặp</h2>
-        <p data-vi="Một vài điều khách thường hỏi trước khi bắt đầu."
-          data-en="A few things clients usually ask before getting started.">Một vài điều khách thường hỏi trước khi bắt
-          đầu.</p>
-      </div>
-      <div class="faq-grid">
-        <div class="faq-item fade-up">
-          <h3 data-vi="Tôi chưa có page, có làm được không?" data-en="I do not have a page yet. Can you help?">Tôi chưa
-            có page, có làm được không?</h3>
-          <p data-vi="Có. Viet Growth EU có thể hỗ trợ setup page, bio, ảnh bìa, logo, bài giới thiệu và nội dung ban đầu."
-            data-en="Yes. Viet Growth EU can help set up your page, bio, cover, logo, intro post and initial content.">
-            Có. Viet Growth EU có thể hỗ trợ setup page, bio, ảnh bìa, logo, bài giới thiệu và nội dung ban đầu.</p>
-        </div>
-        <div class="faq-item fade-up">
-          <h3 data-vi="Có làm cho khách ở nhiều nước EU không?" data-en="Do you support clients across Europe?">Có làm
-            cho khách ở nhiều nước EU không?</h3>
-          <p data-vi="Có. Dịch vụ phù hợp cho người Việt tại Czech, Đức, Pháp, Ba Lan và các nước Châu Âu khác."
-            data-en="Yes. Our service is suitable for Vietnamese businesses in Czech Republic, Germany, France, Poland and other European countries.">
-            Có. Dịch vụ phù hợp cho người Việt tại Czech, Đức, Pháp, Ba Lan và các nước Châu Âu khác.</p>
-        </div>
-        <div class="faq-item fade-up">
-          <h3 data-vi="Tôi chỉ cần hình ảnh và content thôi được không?"
-            data-en="Can I only order content and visuals?">Tôi chỉ cần hình ảnh và content thôi được không?</h3>
-          <p data-vi="Được. Bạn có thể bắt đầu với gói content + hình ảnh trước, sau đó mới chạy ads hoặc làm web."
-            data-en="Yes. You can start with content + visuals first, then move to ads or website later.">Được. Bạn có
-            thể bắt đầu với gói content + hình ảnh trước, sau đó mới chạy ads hoặc làm web.</p>
-        </div>
-        <div class="faq-item fade-up">
-          <h3 data-vi="Bao lâu thì bắt đầu triển khai?" data-en="How fast can we start?">Bao lâu thì bắt đầu triển khai?
-          </h3>
-          <p data-vi="Sau khi hiểu sản phẩm và mục tiêu, tụi tui có thể đề xuất hướng làm và timeline phù hợp cho từng nhu cầu."
-            data-en="After understanding your product and goals, we can suggest a suitable direction and timeline for your needs.">
-            Sau khi hiểu sản phẩm và mục tiêu, tụi tui có thể đề xuất hướng làm và timeline phù hợp cho từng nhu cầu.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="cta-band">
-    <div class="wrap fade-up">
-      <h2 data-vi="Đừng để sản phẩm tốt bị khách lướt qua" data-en="Do not let a good product get ignored">Đừng để sản
-        phẩm tốt bị khách lướt qua</h2>
-      <p data-vi="Chỉ cần đổi cách trình bày, cách viết và cách dẫn khách về form/inbox, doanh nghiệp của bạn đã có thể nhìn chuyên nghiệp và dễ bán hơn."
-        data-en="By improving presentation, messaging and the path to inbox/form, your business can look more professional and become easier to sell.">
-        Chỉ cần đổi cách trình bày, cách viết và cách dẫn khách về form/inbox, doanh nghiệp của bạn đã có thể nhìn
-        chuyên nghiệp và dễ bán hơn.</p><a class="btn" href="#form" data-vi="Tôi muốn được tư vấn"
-        data-en="I want consultation">Tôi muốn được tư vấn</a>
-    </div>
-  </section>
-  <section id="form" class="form-sec">
-    <div class="wrap">
-      <div class="form-box">
-        <div>
-          <h2 data-vi="Đăng ký tư vấn miễn phí" data-en="Request a free consultation">Đăng ký tư vấn miễn phí</h2>
-          <p data-vi="Điền thông tin bên dưới, Viet Growth EU sẽ liên hệ để tư vấn hướng marketing phù hợp cho sản phẩm/dịch vụ của bạn."
-            data-en="Fill in the form below and Viet Growth EU will contact you to suggest the right marketing direction for your product or service.">
-            Điền thông tin bên dưới, Viet Growth EU sẽ liên hệ để tư vấn hướng marketing phù hợp cho sản phẩm/dịch vụ
-            của bạn.</p>
-          <div class="contact-line">📲 Zalo: 0918 366 507</div>
-          <div class="contact-line">💬 WhatsApp: +84 773 183 737</div>
-          <div class="contact-line">📩 Messenger: <a href="https://www.facebook.com/profile.php?id=61589139596786"
-              target="_blank">Viet Growth EU</a></div>
-          <div class="contact-line">🔗 Facebook: <a href="https://www.facebook.com/profile.php?id=61589139596786"
-              target="_blank">Xem page Viet Growth EU</a></div>
-        </div>
-        <form class="form" onsubmit="handleLeadSubmit(event)"><input type="text" data-placeholder-vi="Họ và tên"
-            data-placeholder-en="Full name" placeholder="Họ và tên" required><input type="tel"
-            data-placeholder-vi="Số điện thoại / Zalo" data-placeholder-en="Phone / WhatsApp / Zalo"
-            placeholder="Số điện thoại / Zalo" required><input type="text"
-            data-placeholder-vi="Bạn đang kinh doanh sản phẩm/dịch vụ gì?"
-            data-placeholder-en="What product/service do you sell?"
-            placeholder="Bạn đang kinh doanh sản phẩm/dịch vụ gì?" required><select required>
-            <option value="" data-vi="Bạn cần hỗ trợ dịch vụ nào?" data-en="Which service do you need?">Bạn cần hỗ trợ
-              dịch vụ nào?</option>
-            <option data-vi="Chạy quảng cáo" data-en="Advertising">Chạy quảng cáo</option>
-            <option data-vi="Content + hình ảnh marketing" data-en="Content + marketing visuals">Content + hình ảnh
-              marketing</option>
-            <option data-vi="Video quảng cáo" data-en="Ad video">Video quảng cáo</option>
-            <option>Website / Landing Page</option>
-            <option data-vi="Media trọn gói" data-en="Full-service media package">Media trọn gói</option>
-          </select><textarea
-            data-placeholder-vi="Mô tả ngắn vấn đề bạn đang gặp: chưa ra đơn, ads lỗ, page yếu, cần web..."
-            data-placeholder-en="Briefly describe your problem: no sales, ads losing money, weak page, need a website..."
-            placeholder="Mô tả ngắn vấn đề bạn đang gặp: chưa ra đơn, ads lỗ, page yếu, cần web..."></textarea><button
-            type="submit" data-vi="Gửi thông tin tư vấn" data-en="Submit consultation request">Gửi thông tin tư
-            vấn</button></form>
-      </div>
-    </div>
-  </section>
-  <div class="share-fixed"><a class="share-btn share-zalo"
-      href="https://zalo.me/share?u=https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Z</a><a
-      class="share-btn share-fb"
-      href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/profile.php?id=61589139596786"
-      target="_blank">f</a><a class="share-btn share-ms" href="https://m.me/61589139596786" target="_blank">M</a><a
-      class="share-btn share-wa" href="https://wa.me/84773183737" target="_blank">W</a></div>
-  <div id="installTip" class="install-tip"><strong data-vi="Thêm Viet Growth EU ra màn hình chính"
-      data-en="Add Viet Growth EU to home screen">Thêm Viet Growth EU ra màn hình chính</strong><span
-      data-vi="Trên iPhone: bấm Share → Add to Home Screen. Trên Android: bấm menu ⋮ → Add to Home screen."
-      data-en="On iPhone: tap Share → Add to Home Screen. On Android: tap ⋮ → Add to Home screen.">Trên iPhone: bấm
-      Share → Add to Home Screen. Trên Android: bấm menu ⋮ → Add to Home screen.</span><button
-      onclick="hideInstallTip()" data-vi="Đã hiểu" data-en="Got it">Đã hiểu</button></div>
-  <footer class="footer"
-    data-vi="© Viet Growth EU — Giúp người Việt tại Châu Âu bán hàng online hiệu quả<br><a href='https://www.facebook.com/profile.php?id=61589139596786' target='_blank'>Facebook Page</a>"
-    data-en="© Viet Growth EU — Helping Vietnamese businesses in Europe grow online sales<br><a href='https://www.facebook.com/profile.php?id=61589139596786' target='_blank'>Facebook Page</a>">
-    © Viet Growth EU — Giúp người Việt tại Châu Âu bán hàng online hiệu quả<br><a
-      href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Facebook Page</a></footer>
-  <script src="script.js"></script>
-</body>
 
+<!-- TOP BAR -->
+<div id="top-bar">
+  <div class="container">
+    <div class="topbar-inner">
+      <div class="topbar-msg">
+        <i class="fas fa-circle"></i>
+        Viet Growth EU — Giải pháp Digital Marketing trọn gói cho người Việt tại Châu Âu
+      </div>
+      <div class="topbar-langs">
+        <a href="#"><span>🇻🇳</span> VI</a>
+        <a href="#"><span>🇬🇧</span> EN</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="header-main">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" style="text-decoration:none">
+          <div class="logo-wrap">
+            <div class="logo-name">VIET GROWTH <span>EU</span></div>
+            <div class="logo-tagline">Digital Marketing · Châu Âu</div>
+          </div>
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li class="active"><a href="#">Trang chủ</a></li>
+          <li><a href="#about">Về chúng tôi</a></li>
+          <li class="has-dd">
+            <a href="#">Dịch vụ</a>
+            <ul class="nav-dd">
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-paint-brush"></i></div><div><strong>Thiết kế nhận diện thương hiệu</strong><p>Logo, bộ nhận diện, ấn phẩm, brochure, hồ sơ năng lực.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-bullhorn"></i></div><div><strong>Quảng cáo đa nền tảng</strong><p>Facebook, TikTok, Google, Zalo — tối ưu chuyển đổi.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-file-alt"></i></div><div><strong>Thiết kế Landing Page</strong><p>Landing page thu lead hiệu quả, tối ưu tỷ lệ chuyển đổi.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-globe"></i></div><div><strong>Thiết kế website chuyên nghiệp</strong><p>Website chuẩn SEO, responsive, đầy đủ tính năng.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-thumbs-up"></i></div><div><strong>Chăm sóc fanpage chuyên nghiệp</strong><p>Xây dựng hình ảnh, tương tác, thúc đẩy doanh thu.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-search"></i></div><div><strong>Dịch vụ SEO tổng thể</strong><p>SEO website, Google Maps, từ khóa, onpage/offpage.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-users"></i></div><div><strong>Phòng marketing thuê ngoài</strong><p>Chiến lược + triển khai toàn diện, báo cáo kết quả.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fas fa-map-marker-alt"></i></div><div><strong>SEO Google Maps</strong><p>Đưa doanh nghiệp lên top Google Maps khu vực EU.</p></div></a></li>
+              <li><a href="#"><div class="dd-icon"><i class="fab fa-tiktok"></i></div><div><strong>Vận hành TikTok Shop trọn gói</strong><p>Setup, đăng sản phẩm, livestream, affiliate, quảng cáo.</p></div></a></li>
+            </ul>
+          </li>
+          <li><a href="#projects">Dự án</a></li>
+          <li><a href="#contact">Trợ giúp</a></li>
+          <li><a href="#contact" class="nav-cta">Liên hệ tư vấn</a></li>
+        </ul>
+        <button class="mob-btn" id="mobBtn"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO (sec-1) -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <!-- LEFT (mobile: shows image first) -->
+      <div class="hero-visual reveal d2" style="order:2">
+        <div class="hero-img-main">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Viet Growth EU team">
+        </div>
+        <div class="hero-float-1">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop" alt="meeting">
+        </div>
+        <div class="hero-float-badge">
+          <span class="num">100<sup>+</sup></span>
+          <span class="lbl">Doanh nghiệp<br>tin tưởng</span>
+        </div>
+        <div class="hero-float-badge2">
+          <div class="icon"><i class="fas fa-star"></i></div>
+          <div class="txt"><strong>5.0 ★</strong><span>Đánh giá khách hàng</span></div>
+        </div>
+      </div>
+      <!-- RIGHT text -->
+      <div class="reveal" style="order:1">
+        <div class="hero-eyebrow"><i class="fas fa-circle" style="font-size:5px"></i> Bạn đang tìm kiếm</div>
+        <h1 class="hero-h1">Giải pháp cho</h1>
+        <div class="hero-rotate"><span class="typed" id="typedText">Digital Marketing</span></div>
+        <h3 class="hero-h3"><strong>Viet Growth EU</strong> là đơn vị Agency cung cấp giải pháp truyền thông và digital marketing trọn gói cho người Việt kinh doanh tại Châu Âu — FnB, thẩm mỹ, Giáo dục, Ecom và mọi lĩnh vực.</h3>
+        <div class="hero-btns">
+          <a href="#about" class="btn-main"><i class="fas fa-user"></i> Về Chúng Tôi</a>
+          <a href="#contact" class="btn-outline">Xem hồ sơ năng lực <i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="tc reveal"><div class="stat-num"><span class="cu" data-t="300">0</span><sup>+</sup></div><div class="stat-lbl">Dự án đã triển khai</div></div>
+      <div class="tc reveal d1"><div class="stat-num"><span class="cu" data-t="200">0</span><sup>+</sup></div><div class="stat-lbl">Chiến dịch Ads</div></div>
+      <div class="tc reveal d2"><div class="stat-num"><span class="cu" data-t="100">0</span><sup>+</sup></div><div class="stat-lbl">Khách hàng</div></div>
+      <div class="tc reveal d3"><div class="stat-num"><span class="cu" data-t="6">0</span><sup>+</sup></div><div class="stat-lbl">Quốc gia Châu Âu</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT (sec-2) -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?q=80&w=1000&auto=format&fit=crop" alt="Viet Growth EU">
+        <div class="about-img-badge"><div class="n">5<sup>+</sup></div><div class="l">Năm kinh nghiệm</div></div>
+      </div>
+      <div class="reveal d1">
+        <div class="sub-label"><i class="fas fa-circle"></i> VỀ CHÚNG TÔI</div>
+        <h2 class="section-h2">VIET GROWTH EU — CÔNG TY CHUYÊN GIẢI PHÁP DIGITAL MARKETING TRỌN GÓI CHÂU ÂU</h2>
+        <div class="divider"></div>
+        <h3 style="font-size:14px;color:#444;line-height:1.7;font-weight:500;margin-bottom:20px"><strong><a href="#" style="color:#0c2a72">Viet Growth EU</a></strong> chuyên sâu về lĩnh vực Digital Marketing, với những giải pháp tối ưu, kiến thức chuyên sâu, kinh nghiệm lâu năm và không bao giờ đi theo lối mòn. Viet Growth EU đã đáp ứng được những yêu cầu khắt khe nhất và được các doanh nghiệp Việt tại Châu Âu lựa chọn làm đối tác chiến lược.</h3>
+        <a href="#contact" class="btn-main" style="margin-bottom:24px;display:inline-flex"><i class="fas fa-phone-alt"></i> Liên Hệ Tư Vấn</a>
+        <ul class="about-checklist">
+          <li><i class="fas fa-check-circle"></i> Xây dựng chiến lược, chiến dịch truyền thông – marketing tích hợp</li>
+          <li><i class="fas fa-check-circle"></i> Sáng tạo nội dung: kịch bản, content calendar cho các kênh social media</li>
+          <li><i class="fas fa-check-circle"></i> Chạy quảng cáo tối ưu chi phí đa nền tảng Facebook, TikTok, Google</li>
+          <li><i class="fas fa-check-circle"></i> Quản trị và xây dựng các kênh social media (Facebook, TikTok, Instagram…)</li>
+          <li><i class="fas fa-check-circle"></i> Thiết kế graphic, UI/UX website, logo, bộ nhận diện thương hiệu</li>
+          <li><i class="fas fa-check-circle"></i> Sản xuất video animation, video quảng cáo, short video</li>
+          <li><i class="fas fa-check-circle"></i> Giải pháp SEO: Google Maps, SEO website trọn gói, SEO từ khóa</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO BANNER (sec-3) -->
+<section class="video-banner">
+  <div class="video-banner-bg"></div>
+  <div class="video-banner-content reveal">
+    <div class="vb-eyebrow"><span>VIET GROWTH EU ĐỒNG HÀNH CÙNG BẠN</span></div>
+    <h2 class="vb-title">Viet Growth EU — Agency Marketing <br>Dành riêng cho người Việt tại Châu Âu</h2>
+    <button class="play-btn" onclick="openVideo()" aria-label="Xem video giới thiệu">
+      <i class="fas fa-play"></i>
+    </button>
+    <p style="color:rgba(255,255,255,.7);font-size:13px;margin-top:16px;font-weight:500">Xem video giới thiệu về Viet Growth EU</p>
+  </div>
+</section>
+<!-- Video modal — đặt link vào src sau -->
+<div class="video-modal" id="videoModal">
+  <div class="video-modal-inner">
+    <button class="video-modal-close" onclick="closeVideo()"><i class="fas fa-times"></i></button>
+    <iframe id="videoFrame" src="" allow="autoplay;encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- SERVICES (sec-4) — 9 dịch vụ đầy đủ -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="tc reveal" style="margin-bottom:48px">
+      <div class="sub-label"><i class="fas fa-circle"></i> DỊCH VỤ CỦA VIET GROWTH EU</div>
+      <h2 class="section-h2">CHÚNG TÔI CUNG CẤP DỊCH VỤ GÌ?<br>MẠNH VỀ BRANDING — DIGITAL MARKETING — CHIẾN LƯỢC TRUYỀN THÔNG</h2>
+      <div class="divider"></div>
+      <p class="section-desc">Giải pháp toàn diện cho doanh nghiệp người Việt tại Châu Âu trong thời đại 4.0</p>
+    </div>
+    <div class="services-9">
+
+      <!-- 1. Chăm sóc Social Media -->
+      <div class="svc-card reveal">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=800&auto=format&fit=crop" alt="Social Media">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-thumbs-up"></i></div>
+            <div><h3>CHĂM SÓC KÊNH SOCIAL MEDIA</h3><p>Xây dựng & phát triển thương hiệu</p></div>
+          </div>
+          <p class="svc-card-desc">Tư vấn nhu cầu và định hướng phát triển thương hiệu. Giải pháp trọn gói xây dựng và chăm sóc fanpage Facebook, TikTok, Instagram — tăng tương tác, tăng độ uy tín và thúc đẩy doanh thu bền vững.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Video & Animation -->
+      <div class="svc-card reveal d1">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=800&auto=format&fit=crop" alt="Video">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-video"></i></div>
+            <div><h3>VIDEO & ANIMATION</h3><p>Sản xuất nội dung video chuyên nghiệp</p></div>
+          </div>
+          <p class="svc-card-desc">Quay phim, sản xuất video quảng cáo, video giới thiệu doanh nghiệp, short video TikTok/Reels, animation 2D/3D — giúp thương hiệu nổi bật và thu hút đúng khách hàng mục tiêu tại thị trường Châu Âu.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. SEO Website -->
+      <div class="svc-card reveal d2">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="SEO Website">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-search"></i></div>
+            <div><h3>SEO WEBSITE TỔNG THỂ</h3><p>Top Google bền vững, lâu dài</p></div>
+          </div>
+          <p class="svc-card-desc">Xây dựng kế hoạch SEO tổng thể, SEO keywords, onpage/offpage SEO, backlink chất lượng. Đưa và giữ vững website trang đầu công cụ tìm kiếm — tăng traffic organic bền vững cho doanh nghiệp tại EU.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Thiết kế -->
+      <div class="svc-card reveal d3">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop" alt="Design">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-paint-brush"></i></div>
+            <div><h3>DỊCH VỤ THIẾT KẾ</h3><p>Trọn gói thiết kế sáng tạo chuyên nghiệp</p></div>
+          </div>
+          <p class="svc-card-desc">Thiết kế logo, bộ nhận diện thương hiệu, hồ sơ năng lực, catalogue, brochure, banner, standee, giao diện website, UI/UX app — mọi ấn phẩm truyền thông cần thiết cho doanh nghiệp của bạn.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Vận hành sàn TMĐT / TikTok Shop -->
+      <div class="svc-card reveal d4">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop" alt="Ecommerce">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fab fa-tiktok"></i></div>
+            <div><h3>VẬN HÀNH TIKTOK SHOP & SÀN TMĐT</h3><p>Giải pháp bán hàng online toàn diện</p></div>
+          </div>
+          <p class="svc-card-desc">Thiết lập gian hàng, đăng sản phẩm, xử lý đơn hàng, sản xuất video đến livestream, affiliate, KOC và quảng cáo TikTok Shop. Hỗ trợ nhà bán hàng mở rộng kinh doanh trên Shopee, Lazada, Amazon EU.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. KOL/KOC Booking -->
+      <div class="svc-card reveal d5">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=800&auto=format&fit=crop" alt="KOL KOC">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-users"></i></div>
+            <div><h3>KOL/KOC BOOKING BÁO TRỰC TUYẾN</h3><p>Tăng uy tín & nhận diện thương hiệu</p></div>
+          </div>
+          <p class="svc-card-desc">Chiến dịch booking KOL/KOC và báo điện tử — phần không thể thiếu trong các chiến dịch marketing hiện đại. Giúp thương hiệu tiếp cận đúng cộng đồng người Việt tại Châu Âu, mang lại hiệu quả tức thì.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Chạy Quảng Cáo -->
+      <div class="svc-card reveal d6">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=800&auto=format&fit=crop" alt="Ads">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-bullhorn"></i></div>
+            <div><h3>CHẠY QUẢNG CÁO ĐA NỀN TẢNG</h3><p>Performance Ads tối ưu chuyển đổi</p></div>
+          </div>
+          <p class="svc-card-desc">Giải pháp Performance Ads, chạy quảng cáo tối ưu hóa và chiết khấu tốt đa nền tảng: Facebook — TikTok — Google — Tripadvisor — Zalo — Instagram — các sàn TMĐT. Nhắm đúng tệp, đúng khách hàng mục tiêu của bạn.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Landing Page -->
+      <div class="svc-card reveal d7">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=800&auto=format&fit=crop" alt="Landing Page">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-file-alt"></i></div>
+            <div><h3>THIẾT KẾ LANDING PAGE</h3><p>Tối ưu chuyển đổi, thu lead hiệu quả</p></div>
+          </div>
+          <p class="svc-card-desc">Là giải pháp giúp tối ưu chuyển đổi, giúp khách hàng dễ dàng tiếp cận sản phẩm/dịch vụ, đồng thời hỗ trợ hiệu quả cho bán hàng và truyền thông thương hiệu. CTA rõ ràng, form thu lead tối ưu mobile.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Website -->
+      <div class="svc-card reveal d8">
+        <div class="svc-card-thumb">
+          <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=800&auto=format&fit=crop" alt="Website">
+        </div>
+        <div class="svc-card-body">
+          <div class="svc-card-head">
+            <div class="svc-icon"><i class="fas fa-globe"></i></div>
+            <div><h3>THIẾT KẾ WEBSITE CHUYÊN NGHIỆP</h3><p>Chuẩn SEO, responsive, đầy đủ tính năng</p></div>
+          </div>
+          <p class="svc-card-desc">Sở hữu một website chuẩn SEO, giao diện responsive với đầy đủ tính năng bán hàng online, giới thiệu dịch vụ, dự án. Tích hợp booking, form liên hệ, live chat và tối ưu tốc độ tải trang cho thị trường EU.</p>
+          <div class="svc-card-btns">
+            <a href="#contact" class="svc-btn-main">Liên hệ tư vấn</a>
+            <a href="#" class="svc-btn-link">Xem thêm <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS (sec-5) -->
+<section class="section" id="clients">
+  <div class="container">
+    <div class="tc reveal" style="margin-bottom:40px">
+      <div class="sub-label"><i class="fas fa-circle"></i> ĐỐI TÁC — KHÁCH HÀNG</div>
+      <h2 class="section-h2">ĐỒNG HÀNH CÙNG CHÚNG TÔI</h2>
+      <div class="divider"></div>
+    </div>
+  </div>
+  <div class="clients-wrap">
+    <div class="clients-track">
+      <div class="client-card"><span>🛒 Minh Châu Shop EU</span></div>
+      <div class="client-card"><span>🍜 Phở Hà Nội Berlin</span></div>
+      <div class="client-card"><span>💅 Nail by Lan Praha</span></div>
+      <div class="client-card"><span>👗 Thời Trang Áo Dài EU</span></div>
+      <div class="client-card"><span>🏥 Thẩm Mỹ Hương Giang</span></div>
+      <div class="client-card"><span>☕ Cà Phê Sài Gòn Paris</span></div>
+      <div class="client-card"><span>🍱 Bếp Mẹ Việt Warsaw</span></div>
+      <div class="client-card"><span>🌿 Organic Việt EU</span></div>
+      <div class="client-card"><span>🏡 Interior Việt Lyon</span></div>
+      <div class="client-card"><span>📦 Logistic Việt EU</span></div>
+      <!-- duplicate -->
+      <div class="client-card"><span>🛒 Minh Châu Shop EU</span></div>
+      <div class="client-card"><span>🍜 Phở Hà Nội Berlin</span></div>
+      <div class="client-card"><span>💅 Nail by Lan Praha</span></div>
+      <div class="client-card"><span>👗 Thời Trang Áo Dài EU</span></div>
+      <div class="client-card"><span>🏥 Thẩm Mỹ Hương Giang</span></div>
+      <div class="client-card"><span>☕ Cà Phê Sài Gòn Paris</span></div>
+      <div class="client-card"><span>🍱 Bếp Mẹ Việt Warsaw</span></div>
+      <div class="client-card"><span>🌿 Organic Việt EU</span></div>
+      <div class="client-card"><span>🏡 Interior Việt Lyon</span></div>
+      <div class="client-card"><span>📦 Logistic Việt EU</span></div>
+    </div>
+    <div class="clients-track clients-track2">
+      <div class="client-card"><span>🎓 Edu Center Berlin</span></div>
+      <div class="client-card"><span>🍰 Bánh Mì Sài Gòn</span></div>
+      <div class="client-card"><span>💆 Spa & Wellness VN</span></div>
+      <div class="client-card"><span>🖥️ Tech Việt EU</span></div>
+      <div class="client-card"><span>🎨 Creative Việt Studio</span></div>
+      <div class="client-card"><span>🚗 Car Rental Việt EU</span></div>
+      <div class="client-card"><span>👒 Fashion Việt Praha</span></div>
+      <div class="client-card"><span>🌸 Beauty Salon Lan Anh</span></div>
+      <div class="client-card"><span>🍺 Bia Hơi Hà Nội DE</span></div>
+      <div class="client-card"><span>📱 Digital Việt Agency</span></div>
+      <!-- duplicate -->
+      <div class="client-card"><span>🎓 Edu Center Berlin</span></div>
+      <div class="client-card"><span>🍰 Bánh Mì Sài Gòn</span></div>
+      <div class="client-card"><span>💆 Spa & Wellness VN</span></div>
+      <div class="client-card"><span>🖥️ Tech Việt EU</span></div>
+      <div class="client-card"><span>🎨 Creative Việt Studio</span></div>
+      <div class="client-card"><span>🚗 Car Rental Việt EU</span></div>
+      <div class="client-card"><span>👒 Fashion Việt Praha</span></div>
+      <div class="client-card"><span>🌸 Beauty Salon Lan Anh</span></div>
+      <div class="client-card"><span>🍺 Bia Hơi Hà Nội DE</span></div>
+      <div class="client-card"><span>📱 Digital Việt Agency</span></div>
+    </div>
+  </div>
+  <div class="container" style="margin-top:36px;text-align:center">
+    <p style="color:#888;font-size:14px;margin-bottom:20px;font-weight:600">Và hàng trăm doanh nghiệp khác đã tin tưởng Viet Growth EU</p>
+    <a href="#contact" class="btn-main"><i class="fas fa-download"></i> Hồ Sơ Năng Lực</a>
+  </div>
+</section>
+
+<!-- PROJECTS (sec-6) -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:36px">
+      <div class="reveal">
+        <div class="sub-label"><i class="fas fa-circle"></i> DỰ ÁN ĐÃ TRIỂN KHAI</div>
+        <h2 class="section-h2">CÁC DỰ ÁN TIÊU BIỂU<br>VIET GROWTH EU — CHÂU ÂU</h2>
+      </div>
+      <a href="#contact" class="btn-outline reveal" style="white-space:nowrap">Xem thêm dự án <i class="fas fa-angle-right"></i></a>
+    </div>
+    <div class="proj-tabs reveal">
+      <button class="ptab active" onclick="switchPTab(this,'pt-website')">Website</button>
+      <button class="ptab" onclick="switchPTab(this,'pt-branding')">Nhận diện</button>
+      <button class="ptab" onclick="switchPTab(this,'pt-landing')">Landing page</button>
+      <button class="ptab" onclick="switchPTab(this,'pt-ads')">Ads &amp; Content</button>
+      <button class="ptab" onclick="switchPTab(this,'pt-video')">Video</button>
+      <button class="ptab" onclick="switchPTab(this,'pt-other')">Khác</button>
+    </div>
+
+    <div class="ptab-content active" id="pt-website">
+      <div class="proj-layout reveal">
+        <div class="proj-main">
+          <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1200&auto=format&fit=crop" alt="">
+          <div class="proj-overlay"><h3>Cà Phê Sài Gòn Paris — Website chuẩn SEO, tỷ lệ chuyển đổi 12%</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div>
+        </div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Organic Việt EU — 500+ từ khóa top Google</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Logistic Việt EU — Portal quản lý khách hàng</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ptab-content" id="pt-branding">
+      <div class="proj-layout reveal">
+        <div class="proj-main"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1200&auto=format&fit=crop" alt=""><div class="proj-overlay"><h3>Minh Châu Shop — Bộ nhận diện thương hiệu toàn diện tại EU</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Spa & Wellness VN — Rebrand tăng doanh thu 40%</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Creative Việt Studio — Brand identity system</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ptab-content" id="pt-landing">
+      <div class="proj-layout reveal">
+        <div class="proj-main"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt=""><div class="proj-overlay"><h3>Nail by Lan Praha — Landing page thu 150 lead/tháng</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b6f7b?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Thẩm Mỹ Hương Giang — Conversion rate 15%</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Edu Center Berlin — 200 học viên từ landing page</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ptab-content" id="pt-ads">
+      <div class="proj-layout reveal">
+        <div class="proj-main"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop" alt=""><div class="proj-overlay"><h3>Phở Hà Nội Berlin — Facebook Ads tăng 3x đơn đặt bàn</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Nail by Lan Praha — Google Ads ROI 400%</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Thẩm Mỹ Hương Giang — TikTok 500 leads/tháng</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ptab-content" id="pt-video">
+      <div class="proj-layout reveal">
+        <div class="proj-main"><img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=1200&auto=format&fit=crop" alt=""><div class="proj-overlay"><h3>Phở Hà Nội Berlin — Video TikTok viral 2 triệu views</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Cà Phê Sài Gòn Paris — Reels 500K reach</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Nail by Lan Praha — Before/After video viral</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="ptab-content" id="pt-other">
+      <div class="proj-layout reveal">
+        <div class="proj-main"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop" alt=""><div class="proj-overlay"><h3>Bếp Mẹ Việt Warsaw — TikTok Shop 1000 đơn/tháng đầu</h3><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        <div class="proj-sidebar">
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Organic Việt EU — Content viral 1M reach Facebook</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+          <div class="proj-thumb"><img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=800&auto=format&fit=crop" alt=""><div class="proj-thumb-ov"><h4>Logistic Việt EU — KOL booking 50+ bài PR</h4><a href="#contact" class="btn-sm">Xem chi tiết</a></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section">
+  <div class="container">
+    <div class="tc reveal" style="margin-bottom:48px">
+      <div class="sub-label"><i class="fas fa-circle"></i> QUY TRÌNH LÀM VIỆC</div>
+      <h2 class="section-h2">QUY TRÌNH TRIỂN KHAI</h2>
+      <div class="divider"></div>
+      <p class="section-desc">Rõ ràng — Nhanh — Tập trung vào kết quả thực tế</p>
+    </div>
+    <div class="process-row">
+      <div class="proc-step reveal"><div class="proc-num">01</div><h3>Phân tích & Tư vấn</h3><p>Tìm hiểu sản phẩm, thị trường, đối thủ và khách hàng mục tiêu. Đề xuất chiến lược phù hợp với ngân sách và mục tiêu.</p></div>
+      <div class="proc-step reveal d1"><div class="proc-num">02</div><h3>Lên kế hoạch chiến lược</h3><p>Xây dựng kế hoạch marketing tổng thể, thông điệp, concept bán hàng và timeline triển khai cụ thể theo từng giai đoạn.</p></div>
+      <div class="proc-step reveal d2"><div class="proc-num">03</div><h3>Triển khai & Sản xuất</h3><p>Sản xuất content, hình ảnh, video, thiết kế và setup hệ thống quảng cáo theo đúng kế hoạch. Bàn giao đúng tiến độ.</p></div>
+      <div class="proc-step reveal d3"><div class="proc-num">04</div><h3>Tối ưu & Báo cáo</h3><p>Theo dõi hiệu quả realtime, tối ưu liên tục và báo cáo kết quả định kỳ. Tập trung vào KPI và ROI thực tế của khách hàng.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section-dark" style="padding:70px 0">
+  <div class="container">
+    <div class="tc reveal" style="margin-bottom:48px">
+      <div class="sub-label" style="justify-content:center;color:rgba(255,255,255,.75)"><i class="fas fa-circle" style="color:#ffd700"></i> ĐÁNH GIÁ KHÁCH HÀNG</div>
+      <h2 style="font-size:clamp(20px,2.8vw,34px);font-weight:800;color:#fff;text-transform:uppercase;line-height:1.2;margin-bottom:14px">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI?</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal"><div class="testi-stars">★★★★★</div><p class="testi-text">"Viet Growth EU giúp nhà hàng tôi tăng 3 lần lượng khách đặt bàn chỉ trong 2 tháng. Content chuyên nghiệp, ads hiệu quả, team nhiệt tình. Rất đáng đồng tiền bát gạo!"</p><div class="testi-author"><div class="testi-av">H</div><div><div class="testi-name">Chị Nguyễn Thu Hà</div><div class="testi-role">Chủ nhà hàng Phở Hà Nội Berlin</div></div></div></div>
+      <div class="testi-card reveal d1"><div class="testi-stars">★★★★★</div><p class="testi-text">"Từ ngày hợp tác Viet Growth EU, shop online của tôi có đơn đều hơn hẳn. Họ hiểu thị trường Châu Âu, hiểu tâm lý người Việt mua hàng. Rất hài lòng với kết quả!"</p><div class="testi-author"><div class="testi-av">T</div><div><div class="testi-name">Anh Minh Tuấn</div><div class="testi-role">Chủ shop thời trang tại Praha</div></div></div></div>
+      <div class="testi-card reveal d2"><div class="testi-stars">★★★★★</div><p class="testi-text">"Website và landing page do Viet Growth EU làm rất đẹp, load nhanh và chuyển đổi tốt. Tháng đầu đã có 50 lead từ Google Ads. Recommend cho ai cần marketing bài bản!"</p><div class="testi-author"><div class="testi-av">L</div><div><div class="testi-name">Chị Lan Anh</div><div class="testi-role">Chủ nail salon tại Paris</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact" style="background:#f8f9ff">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="sub-label"><i class="fas fa-circle"></i> LIÊN HỆ</div>
+        <h2 class="section-h2">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h2>
+        <div class="divider"></div>
+        <p class="section-desc" style="margin-bottom:32px">Điền thông tin bên dưới, Viet Growth EU sẽ liên hệ để tư vấn hướng marketing phù hợp cho sản phẩm/dịch vụ của bạn tại thị trường Châu Âu.</p>
+        <div class="cinfo-item"><div class="cinfo-icon"><i class="fab fa-whatsapp"></i></div><div class="cinfo-text"><label>WhatsApp / Zalo</label><strong>+84 773 183 737 &nbsp;·&nbsp; 0918 366 507</strong></div></div>
+        <div class="cinfo-item"><div class="cinfo-icon"><i class="fab fa-facebook-messenger"></i></div><div class="cinfo-text"><label>Messenger / Facebook</label><strong><a href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank">Viet Growth EU</a></strong></div></div>
+        <div class="cinfo-item"><div class="cinfo-icon"><i class="fas fa-clock"></i></div><div class="cinfo-text"><label>Giờ phản hồi</label><strong>Trong ngày (8:00 – 22:00 GMT+7)</strong></div></div>
+        <div class="cinfo-item"><div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div><div class="cinfo-text"><label>Phục vụ khu vực</label><strong>Czech · Đức · Pháp · Ba Lan · Áo & toàn EU</strong></div></div>
+      </div>
+      <div class="form-card reveal d1">
+        <h3>Thông Tin Tư Vấn</h3>
+        <p>Chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc</p>
+        <div id="formMain">
+          <div class="form-row">
+            <div class="fg"><label>Họ và tên *</label><input type="text" id="fname" placeholder="Nguyễn Văn A" required/></div>
+            <div class="fg"><label>Điện thoại / Zalo *</label><input type="tel" id="fphone" placeholder="+84 xxx xxx xxx" required/></div>
+          </div>
+          <div class="fg"><label>Bạn đang kinh doanh gì? *</label><input type="text" id="fbiz" placeholder="Nhà hàng, shop online, tiệm nail..." required/></div>
+          <div class="fg"><label>Dịch vụ cần hỗ trợ</label>
+            <select id="fsvc">
+              <option value="">Chọn dịch vụ...</option>
+              <option>Chăm sóc kênh Social Media</option>
+              <option>Video & Animation</option>
+              <option>SEO Website tổng thể</option>
+              <option>Dịch vụ Thiết kế</option>
+              <option>Vận hành TikTok Shop & TMĐT</option>
+              <option>KOL/KOC Booking</option>
+              <option>Chạy Quảng Cáo đa nền tảng</option>
+              <option>Thiết kế Landing Page</option>
+              <option>Thiết kế Website chuyên nghiệp</option>
+              <option>Media trọn gói (combo)</option>
+            </select>
+          </div>
+          <div class="fg"><label>Mô tả vấn đề đang gặp</label><textarea id="fnote" placeholder="Chưa ra đơn, ads lỗ, page yếu, cần web, cần content..."></textarea></div>
+          <button class="form-submit" onclick="submitLead()" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> &nbsp;GỬI THÔNG TIN TƯ VẤN
+          </button>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <div class="fs-ico">✅</div>
+          <h3>Đã nhận thông tin!</h3>
+          <p>Viet Growth EU sẽ liên hệ với bạn trong thời gian sớm nhất.<br>Cảm ơn bạn đã tin tưởng!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">VIET GROWTH <span>EU</span></div>
+        <p>Giải pháp digital marketing trọn gói cho người Việt kinh doanh tại Châu Âu. Đồng hành cùng doanh nghiệp từ branding đến performance marketing — bàn giao kết quả thực tế.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61589139596786" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/84773183737" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://m.me/61589139596786" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+          <a href="https://zalo.me/0918366507" target="_blank" style="font-size:11px;font-weight:900">Z</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch Vụ</h4>
+        <ul>
+          <li><a href="#">Chăm sóc Social Media</a></li>
+          <li><a href="#">Video &amp; Animation</a></li>
+          <li><a href="#">SEO Website tổng thể</a></li>
+          <li><a href="#">Dịch vụ Thiết kế</a></li>
+          <li><a href="#">TikTok Shop &amp; TMĐT</a></li>
+          <li><a href="#">KOL/KOC Booking</a></li>
+          <li><a href="#">Quảng cáo đa nền tảng</a></li>
+          <li><a href="#">Landing Page</a></li>
+          <li><a href="#">Website chuyên nghiệp</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Thông Tin</h4>
+        <ul>
+          <li><a href="#">Về Chúng Tôi</a></li>
+          <li><a href="#">Dự Án Tiêu Biểu</a></li>
+          <li><a href="#">Bảng Giá Dịch Vụ</a></li>
+          <li><a href="#">Blog &amp; Tin Tức</a></li>
+          <li><a href="#">Tuyển Dụng</a></li>
+          <li><a href="#">Hồ Sơ Năng Lực</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên Hệ</h4>
+        <ul>
+          <li><a href="https://wa.me/84773183737">+84 773 183 737</a></li>
+          <li><a href="https://zalo.me/0918366507">Zalo: 0918 366 507</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61589139596786">Facebook Page</a></li>
+          <li><a href="#">Czech · Đức · Pháp</a></li>
+          <li><a href="#">Ba Lan · Áo · Bỉ</a></li>
+          <li><a href="#">Hà Lan &amp; toàn EU</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Viet Growth EU — Giúp người Việt tại Châu Âu bán hàng online hiệu quả hơn.</p>
+      <p>Thiết kế bởi Viet Growth EU Team</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOAT BUTTONS -->
+<div class="float-btns">
+  <a class="fb fb-z" href="https://zalo.me/0918366507" target="_blank" title="Zalo">Z</a>
+  <a class="fb fb-w" href="https://wa.me/84773183737" target="_blank" title="WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+  <a class="fb fb-m" href="https://m.me/61589139596786" target="_blank" title="Messenger">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 4.974 0 11.111c0 3.498 1.744 6.614 4.469 8.652V24l4.088-2.242c1.092.301 2.246.464 3.443.464 6.627 0 12-4.975 12-11.111C24 4.974 18.627 0 12 0zm1.191 14.963l-3.055-3.26-5.963 3.26 6.559-6.963 3.13 3.26 5.889-3.26-6.56 6.963z"/></svg>
+  </a>
+</div>
+
+<script>
+// ===== TELEGRAM =====
+const BOT = "8411668472:AAF7mzIiEot6vEQhqeHrZvpB4hLY_e6L6Ms";
+const CID = "8613386410";
+
+async function submitLead() {
+  const name  = document.getElementById('fname').value.trim();
+  const phone = document.getElementById('fphone').value.trim();
+  const biz   = document.getElementById('fbiz').value.trim();
+  const svc   = document.getElementById('fsvc').value;
+  const note  = document.getElementById('fnote').value.trim();
+  const btn   = document.getElementById('submitBtn');
+  if (!name || !phone || !biz) { alert('Vui lòng điền đầy đủ thông tin bắt buộc.'); return; }
+  const msg = `🔥 LEAD MỚI — VIET GROWTH EU\n\n👤 Họ tên: ${name}\n📞 Liên hệ: ${phone}\n💼 Kinh doanh: ${biz}\n🧩 Dịch vụ: ${svc||'Chưa chọn'}\n📝 Ghi chú: ${note||'Không có'}\n\n⏰ ${new Date().toLocaleString('vi-VN')}`;
+  btn.disabled = true;
+  btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> &nbsp;Đang gửi...';
+  try {
+    const r = await fetch(`https://api.telegram.org/bot${BOT}/sendMessage`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:CID,text:msg})});
+    if (!r.ok) throw 0;
+    document.getElementById('formMain').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  } catch {
+    alert('Gửi chưa thành công. Vui lòng nhắn trực tiếp qua Zalo/WhatsApp.');
+    btn.disabled = false;
+    btn.innerHTML = '<i class="fas fa-paper-plane"></i> &nbsp;GỬI THÔNG TIN TƯ VẤN';
+  }
+}
+
+// ===== VIDEO MODAL =====
+// ⬇️ Thay YOUR_YOUTUBE_ID bằng ID video YouTube của bạn sau
+const VIDEO_URL = "https://www.youtube.com/embed/YOUR_YOUTUBE_ID?autoplay=1";
+function openVideo() {
+  document.getElementById('videoFrame').src = VIDEO_URL;
+  document.getElementById('videoModal').classList.add('open');
+}
+function closeVideo() {
+  document.getElementById('videoFrame').src = '';
+  document.getElementById('videoModal').classList.remove('open');
+}
+document.getElementById('videoModal').addEventListener('click', function(e){ if(e.target===this) closeVideo(); });
+
+// ===== TYPED EFFECT =====
+const words = ["Digital Marketing","Xây kênh tổng thể","Branding thương hiệu","Booking KOL/KOC","Facebook Ads","Google Ads","TikTok Marketing"];
+let wi=0, ci=0, del=false;
+function type(){
+  const el=document.getElementById('typedText');
+  if(!el)return;
+  const w=words[wi];
+  if(!del){ el.textContent=w.slice(0,++ci); if(ci===w.length){del=true;setTimeout(type,1800);return;} }
+  else{ el.textContent=w.slice(0,--ci); if(ci===0){del=false;wi=(wi+1)%words.length;} }
+  setTimeout(type, del?60:90);
+}
+setTimeout(type, 800);
+
+// ===== MOBILE NAV =====
+document.getElementById('mobBtn').addEventListener('click',()=>{
+  document.getElementById('navMenu').classList.toggle('open');
+});
+
+// ===== PROJECT TABS =====
+function switchPTab(btn, id){
+  document.querySelectorAll('.ptab').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.ptab-content').forEach(c=>c.classList.remove('active'));
+  btn.classList.add('active');
+  const p=document.getElementById(id);
+  if(p){p.classList.add('active');triggerReveal();}
+}
+
+// ===== SCROLL REVEAL =====
+function triggerReveal(){
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el=>{
+    if(el.getBoundingClientRect().top < window.innerHeight-60) el.classList.add('visible');
+  });
+}
+window.addEventListener('scroll',triggerReveal,{passive:true});
+window.addEventListener('load',triggerReveal);
+triggerReveal();
+
+// ===== COUNT UP =====
+function doCount(el){
+  const t=parseInt(el.dataset.t),step=Math.ceil(t/60);let c=0;
+  const tm=setInterval(()=>{c=Math.min(c+step,t);el.textContent=c;if(c>=t)clearInterval(tm);},25);
+}
+new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting&&!e.target.dataset.done){e.target.dataset.done=1;doCount(e.target);}});},{threshold:.5})
+  .observe(document.querySelectorAll('.cu')[0]||document.body);
+document.querySelectorAll('.cu').forEach(el=>{
+  new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting&&!e.target.dataset.done){e.target.dataset.done=1;doCount(e.target);}});},{threshold:.5}).observe(el);
+});
+</script>
+</body>
 </html>
